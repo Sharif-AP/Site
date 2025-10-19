@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "course": "Advanced Programming (AP)",
+    "term": "Fall 2025",
+    "brandColor": "#1966ab"
+  },
+  "overview": {
+    "title": "AP — Advanced Programming",
+    "subtitle": "Sharif University — Fall 2025",
+    "description": "A practical course covering core programming concepts with Java, software design, and tooling.",
+    "prerequisites": ["Programming Fundamentals", "Data Structures (recommended)"],
+    "contacts": {
+      "website": "https://docs.ce.sharif.edu/courses/40244",
+      "email": "ap@sharif.edu",
+      "office": "CE Department",
+      "office_hours": "Sun & Tue 14:00–16:00"
+    },
+    "links": [
+      { "label": "GitHub Repo", "href": "https://github.com/AliJimi/sharif-ap-slides" },
+      { "label": "Course Docs", "href": "https://docs.ce.sharif.edu/courses/40244" }
+    ],
+    "hero": {
+      "headline": "Learn. Build. Ship.",
+      "tagline": "Slides, exercises, workshops, and multi-phase projects — all in one tidy portal."
+    }
+  },
+  "lectures": [
+    {
+      "id": "ap-intro",
+      "week": 1,
+      "date": "2025-09-20",
+      "title": "Course Overview & Policies",
+      "tags": ["intro","course"],
+      "assets": {
+        "html": "/slides/00-course-intro.html",
+        "pdf": "slides/ap-intro.pdf",
+        "pptx": "slides/ap-intro.pptx",
+        "external": null
+      },
+      "description": "Syllabus, grading, project phases, logistics."
+    },
+    {
+      "id": "java-basics-1",
+      "week": 2,
+      "date": "2025-09-27",
+      "title": "Java Basics I",
+      "tags": ["java","basics"],
+      "assets": {
+        "html": "slides/java-basics-1.html",
+        "pdf": "slides/java-basics-1.pdf",
+        "pptx": "slides/java-basics-1.pptx",
+        "external": null
+      },
+      "description": "JVM, types, control flow, tooling."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "hw1",
+      "week": 2,
+      "date": "2025-09-28",
+      "title": "Homework 1",
+      "tags": ["homework"],
+      "assets": {
+        "pdf": "slides/hw1.pdf",
+        "external": null
+      },
+      "description": "Basic Java tasks.",
+      "deadline": "2025-10-05"
+    }
+  ],
+  "workshops": [
+    {
+      "id": "git-basics-ws",
+      "week": 3,
+      "date": "2025-10-04",
+      "title": "Git Fundamentals Workshop",
+      "tags": ["git","workshop"],
+      "assets": {
+        "html": "workshops/git-fundamentals.html",
+        "pdf": "workshops/git-fundamentals.pdf",
+        "external": null
+      },
+      "description": "Branching, merging, PRs, workflows.",
+      "location": "Lab 1"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-01",
+      "title": "AP Project",
+      "description": "A multi-phase course project.",
+      "phases": [
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements",
+          "date": "2025-10-11",
+          "deadline": "2025-10-25",
+          "assets": {
+            "pdf": null,
+            "external": "https://example.com/project-guidelines-phase-1"
+          }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — Design",
+          "date": "2025-11-01",
+          "deadline": "2025-11-15",
+          "assets": {
+            "pdf": null,
+            "external": "https://example.com/project-guidelines-phase-2"
+          }
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    { "date": "2025-09-20", "label": "Lecture 1: Overview", "link": "/slides/00-course-intro.html", "category": "lecture" },
+    { "date": "2025-09-28", "label": "HW1 Released", "link": "/hw/hw1.pdf", "category": "exercise" },
+    { "date": "2025-10-04", "label": "Workshop: Git", "link": "/workshops/git-fundamentals.html", "category": "workshop" },
+    { "date": "2025-10-11", "label": "Project Phase 1 Start", "link": "https://example.com/project-guidelines-phase-1", "category": "project" }
+  ],
+  "policies": {
+    "html_url": null,
+    "markdown_url": null
+  },
+  "team": {
+    "instructor": {
+      "name": "Ali Najimi",
+      "email": "najimi@sharif.edu",
+      "homepage": "",
+      "office": "CE Department"
+    },
+    "tas": [
+      { "name": "Hossein Masihi", "email": "hossein.msh44@sharif.edu", "role": "Head TA", "links": [] }
+    ]
+  }
+}
