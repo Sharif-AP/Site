@@ -175,11 +175,17 @@
       {
         "name": "Hossein Masihi",
         "email": "hossein.msh44@sharif.edu",
-        "role": "ندارم",
+        "role": "Head TA",
         "homepage": "https://masihii.ir",
+        "areas": [
+          "exercises",
+          "workshops",
+          "projects"
+        ],
         "links": [
           {
-            "GitHub": "https://github.com/hosseinMsh"
+            "label": "GitHub",
+            "href": "https://github.com/hosseinMsh"
           }
         ]
       },
@@ -187,109 +193,158 @@
         "name": "Sohaib Sadeqi",
         "email": "sohaibsadeghy@gmail.com",
         "role": "Head TA",
+        "areas": [
+          "exercises",
+          "projects"
+        ],
         "links": [
           {
-            "GitHub": "https://github.com/sohaib-sadeqi"
-          }
-        ]
-      },
-      {
-        "name": "Mohammad Matin Hazrati",
-        "email": "hazratimohammadmatin@gmail.com",
-        "role": "Head of Exercises & Workshop",
-        "links": [
-          {
-            "LinkedIn": "https://www.linkedin.com/in/mohammadmatin-h-7b4209216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          },
-          {
-            "GitHub": "https://github.com/John-6670"
+            "label": "GitHub",
+            "href": "https://github.com/sohaib-sadeqi"
           }
         ]
       },
       {
         "name": "Arash Nazari Manesh",
         "email": "arashnm797@gmail.com",
-        "role": "Product Owner",
+        "role": "Head of Project",
+        "areas": [
+          "projects"
+        ],
         "links": [
           {
-            "LinkedIn": "https://www.linkedin.com/in/mr-arashnm"
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/mr-arashnm"
           },
           {
-            "GitHub": "https://github.com/mr-arashnm"
+            "label": "GitHub",
+            "href": "https://github.com/mr-arashnm"
           }
         ]
       },
       {
         "name": "Aeen Karimian",
         "email": "aeenkarimian@gmail.com",
-        "role": "Product Owner",
+        "role": "Head of Project",
+        "areas": [
+          "projects"
+        ],
         "links": [
           {
-            "LinkedIn": "https://www.linkedin.com/in/aeen-karimian-046a13217/"
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/aeen-karimian-046a13217/"
           },
           {
-            "GitHub": "https://github.com/A-K-6"
+            "label": "GitHub",
+            "href": "https://github.com/A-K-6"
           }
         ]
       },
       {
         "name": "Seyed Reza Moallem Pour",
         "email": "srmpoor47@gmail.com",
-        "role": "Product Manager",
+        "role": "Project Manager",
+        "areas": [
+          "projects"
+        ],
         "links": [
           {
-            "GitHub": "https://github.com/srmp47"
+            "label": "GitHub",
+            "href": "https://github.com/srmp47"
           }
         ]
       },
       {
         "name": "Hossein Karimi",
         "email": "hosein.hka@gmail.com",
-        "role": "Product Manager",
+        "role": "Project Manager",
+        "areas": [
+          "projects"
+        ],
         "links": []
       },
       {
         "name": "Mehdi Torabi",
         "email": "M.tm2013@yahoo.com",
-        "role": "Product Manager",
+        "role": "Project Manager",
+        "areas": [
+          "projects"
+        ],
         "links": []
       },
       {
         "name": "Mohammad Hossein Surani",
         "email": "suranimohammad@gmail.com",
-        "role": "Product Manager",
+        "role": "Project Manager",
+        "areas": [
+          "projects"
+        ],
         "links": [
           {
-            "GitHub": "https://github.com/SurenNTKY"
+            "label": "GitHub",
+            "href": "https://github.com/SurenNTKY"
           }
         ]
       },
       {
         "name": "Ramtin Barzkar",
         "email": "ramtin.barzkar.3@gmail.com",
-        "role": "Product Manager",
+        "role": "Project Manager",
+        "areas": [
+          "projects"
+        ],
         "links": []
+      },
+      {
+        "name": "Mohammad Matin Hazrati",
+        "email": "hazratimohammadmatin@gmail.com",
+        "role": "Head of Exercises & Workshops",
+        "areas": [
+          "exercises",
+          "workshops"
+        ],
+        "links": [
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/mohammadmatin-h-7b4209216"
+          },
+          {
+            "label": "GitHub",
+            "href": "https://github.com/John-6670"
+          }
+        ]
       },
       {
         "name": "Danial Darroudy",
         "email": "danialdarroudy1383@gmail.com",
-        "role": "Exercises & Workshop",
+        "role": "Exercises & Workshops",
+        "areas": [
+          "exercises",
+          "workshops"
+        ],
         "links": [
           {
-            "GitHub": "https://github.com/DanialDarroudy"
+            "label": "GitHub",
+            "href": "https://github.com/DanialDarroudy"
           }
         ]
       },
       {
         "name": "Zahra Masoumi",
         "email": "zahraamasoumi@gmail.com",
-        "role": "Exercises & Workshop",
+        "role": "Exercises & Workshops",
+        "areas": [
+          "exercises",
+          "workshops"
+        ],
         "links": [
           {
-            "LinkedIn": "https://www.linkedin.com/in/zahra-masoumi-187448232"
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/zahra-masoumi-187448232"
           },
           {
-            "GitHub": "https://github.com/asAlwaysZahra"
+            "label": "GitHub",
+            "href": "https://github.com/asAlwaysZahra"
           }
         ]
       },
@@ -297,12 +352,17 @@
         "name": "Hossein Paymard",
         "email": "paymard.pro@gmail.com",
         "role": "Exercises",
+        "areas": [
+          "exercises"
+        ],
         "links": [
           {
-            "LinkedIn": "https://www.linkedin.com/in/hossein-paymard-2427b9389"
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/hossein-paymard-2427b9389"
           },
           {
-            "GitHub": "https://github.com/paymard-pro"
+            "label": "GitHub",
+            "href": "https://github.com/paymard-pro"
           }
         ]
       },
@@ -310,21 +370,31 @@
         "name": "Hamid Reza Afshari",
         "email": "h.r.afshari84@gmail.com",
         "role": "Exercises",
+        "areas": [
+          "exercises"
+        ],
         "links": []
       },
       {
         "name": "Faezeh Alinezhad",
         "email": "f.alinejad1251@gmail.com",
         "role": "Exercises",
+        "areas": [
+          "exercises"
+        ],
         "links": []
       },
       {
         "name": "Elham Gholami",
         "email": "el1300.gh@gmail.com",
         "role": "Exercises",
+        "areas": [
+          "exercises"
+        ],
         "links": [
           {
-            "LinkedIn": "https://www.linkedin.com/in/elham-gholami-9185ab223/"
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/elham-gholami-9185ab223/"
           }
         ]
       },
@@ -332,12 +402,17 @@
         "name": "Roham Ghasemi",
         "email": "roham8406@gmail.com",
         "role": "Exercises",
+        "areas": [
+          "exercises"
+        ],
         "links": [
           {
-            "LinkedIn": "https://www.linkedin.com/in/roham-ghasemi/"
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/roham-ghasemi/"
           },
           {
-            "GitHub": "https://github.com/Roham8406"
+            "label": "GitHub",
+            "href": "https://github.com/Roham8406"
           }
         ]
       },
@@ -345,15 +420,22 @@
         "name": "Mohammad Mehdi Abedini",
         "email": "m.abedini30@yahoo.com",
         "role": "Exams",
+        "areas": [
+          "exams"
+        ],
         "links": []
       },
       {
         "name": "Yasaman Kavianpour",
         "email": "Jasmin.kvp@gmail.com",
         "role": "Exams",
+        "areas": [
+          "exams"
+        ],
         "links": [
           {
-            "GitHub": "https://github.com/jknewworld"
+            "label": "GitHub",
+            "href": "https://github.com/jknewworld"
           }
         ]
       }
