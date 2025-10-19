@@ -1,3 +1,4 @@
+"use client"
 import {useMemo, useState} from "react"
 import {Navigation} from "@/components/navigation"
 import {Footer} from "@/components/footer"
