@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "next build && ls -la && echo '--- out listing ---' && ls -la out || true",
     "start": "next start",
     "lint": "eslint ."
   },

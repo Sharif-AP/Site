@@ -1,18 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Build as static export (creates the `out/` directory)
+  // Make a static export into the `out/` directory
   output: 'export',
 
-  // Avoid server-side image optimization on static hosts
+  // Disable server-side image optimization for static hosts
   images: { unoptimized: true },
 
-  // Optional: keep or remove these if you intentionally skip checks
+  // Optional: keep these if you really want to skip checks
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
 
-  // Optional: enable if you deploy under a subpath, e.g. /ap
+  // Optional: enable when deploying under a subpath
   // basePath: '/ap',
-  // trailingSlash: true, // sometimes helpful on static hosts
+  // trailingSlash: true,
 };
 
 export default nextConfig;
