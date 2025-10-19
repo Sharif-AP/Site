@@ -8,7 +8,10 @@
     "title": "AP — Advanced Programming",
     "subtitle": "Sharif University — Fall 2025",
     "description": "A practical course covering core programming concepts with Java, software design, and tooling.",
-    "prerequisites": ["Programming Fundamentals", "Data Structures (recommended)"],
+    "prerequisites": [
+      "Programming Fundamentals",
+      "Data Structures (recommended)"
+    ],
     "contacts": {
       "website": "https://docs.ce.sharif.edu/courses/40244",
       "email": "ap@sharif.edu",
@@ -16,8 +19,14 @@
       "office_hours": "Sun & Tue 14:00–16:00"
     },
     "links": [
-      { "label": "GitHub Repo", "href": "https://github.com/AliJimi/sharif-ap-slides" },
-      { "label": "Course Docs", "href": "https://docs.ce.sharif.edu/courses/40244" }
+      {
+        "label": "GitHub Repo",
+        "href": "https://github.com/AliJimi/sharif-ap-slides"
+      },
+      {
+        "label": "Course Docs",
+        "href": "https://docs.ce.sharif.edu/courses/40244"
+      }
     ],
     "hero": {
       "headline": "Learn. Build. Ship.",
@@ -30,7 +39,10 @@
       "week": 1,
       "date": "2025-09-20",
       "title": "Course Overview & Policies",
-      "tags": ["intro","course"],
+      "tags": [
+        "intro",
+        "course"
+      ],
       "assets": {
         "html": "/slides/00-course-intro.html",
         "pdf": "slides/ap-intro.pdf",
@@ -44,7 +56,10 @@
       "week": 2,
       "date": "2025-09-27",
       "title": "Java Basics I",
-      "tags": ["java","basics"],
+      "tags": [
+        "java",
+        "basics"
+      ],
       "assets": {
         "html": "slides/java-basics-1.html",
         "pdf": "slides/java-basics-1.pdf",
@@ -60,7 +75,9 @@
       "week": 2,
       "date": "2025-09-28",
       "title": "Homework 1",
-      "tags": ["homework"],
+      "tags": [
+        "homework"
+      ],
       "assets": {
         "pdf": "slides/hw1.pdf",
         "external": null
@@ -75,7 +92,10 @@
       "week": 3,
       "date": "2025-10-04",
       "title": "Git Fundamentals Workshop",
-      "tags": ["git","workshop"],
+      "tags": [
+        "git",
+        "workshop"
+      ],
       "assets": {
         "html": "workshops/git-fundamentals.html",
         "pdf": "workshops/git-fundamentals.pdf",
@@ -115,10 +135,30 @@
     }
   ],
   "timeline": [
-    { "date": "2025-09-20", "label": "Lecture 1: Overview", "link": "/slides/00-course-intro.html", "category": "lecture" },
-    { "date": "2025-09-28", "label": "HW1 Released", "link": "/hw/hw1.pdf", "category": "exercise" },
-    { "date": "2025-10-04", "label": "Workshop: Git", "link": "/workshops/git-fundamentals.html", "category": "workshop" },
-    { "date": "2025-10-11", "label": "Project Phase 1 Start", "link": "https://example.com/project-guidelines-phase-1", "category": "project" }
+    {
+      "date": "2025-09-20",
+      "label": "Lecture 1: Overview",
+      "link": "/slides/00-course-intro.html",
+      "category": "lecture"
+    },
+    {
+      "date": "2025-09-28",
+      "label": "HW1 Released",
+      "link": "/hw/hw1.pdf",
+      "category": "exercise"
+    },
+    {
+      "date": "2025-10-04",
+      "label": "Workshop: Git",
+      "link": "/workshops/git-fundamentals.html",
+      "category": "workshop"
+    },
+    {
+      "date": "2025-10-11",
+      "label": "Project Phase 1 Start",
+      "link": "https://example.com/project-guidelines-phase-1",
+      "category": "project"
+    }
   ],
   "policies": {
     "html_url": null,
@@ -128,11 +168,194 @@
     "instructor": {
       "name": "Ali Najimi",
       "email": "najimi@sharif.edu",
-      "homepage": "all-najimi.ir",
+      "homepage": "",
       "office": "CE Department"
     },
     "tas": [
-      { "name": "Hossein Masihi", "email": "hossein.msh44@sharif.edu", "role": "Head TA", "links": [] }
+      {
+        "name": "Hossein Masihi",
+        "email": "hossein.msh44@sharif.edu",
+        "role": "Head TA",
+        "homepage": "https://masihii.ir",
+        "links": [
+          {
+            "GitHub": "https://github.com/hosseinMsh"
+          }
+        ]
+      },
+      {
+        "name": "Sohaib Sadeqi",
+        "email": "sohaibsadeghy@gmail.com",
+        "role": "Head TA",
+        "links": [
+          {"GitHub":"https://github.com/sohaib-sadeqi"}
+        ]
+      },
+      {
+        "name": "Aeen Karimian",
+        "email": "aeenkarimian@gmail.com",
+        "role": "Product Owner",
+        "links": [
+          {
+            "LinkedIn": "https://www.linkedin.com/in/aeen-karimian-046a13217/"
+          },
+          {
+            "GitHub": "https://github.com/A-K-6"
+          }
+        ]
+      },
+      {
+        "name": "Arash Nazari Manesh",
+        "email": "arashnm797@gmail.com",
+        "role": "Product Owner",
+        "links": [
+          {
+            "LinkedIn": "https://www.linkedin.com/in/mr-arashnm"
+          },
+          {
+            "GitHub": "https://github.com/mr-arashnm"
+          }
+        ]
+      },
+      {
+        "name": "Seyed Reza Moallem Pour",
+        "email": "srmpoor47@gmail.com",
+        "role": "Product Manager",
+        "links": [
+          {
+            "GitHub": "https://github.com/srmp47"
+          }
+        ]
+      },
+      {
+        "name": "Hossein Karimi",
+        "email": "hosein.hka@gmail.com",
+        "role": "Product Manager",
+        "links": []
+      },
+      {
+        "name": "Mehdi Torabi",
+        "email": "M.tm2013@yahoo.com",
+        "role": "Product Manager",
+        "links": []
+      },
+      {
+        "name": "Mohammad Hossein Surani",
+        "email": "suranimohammad@gmail.com",
+        "role": "Product Manager",
+        "links": [
+          {
+            "GitHub": "https://github.com/SurenNTKY"
+          }
+        ]
+      },
+      {
+        "name": "Ramtin Barzkar",
+        "email": "ramtin.barzkar.3@gmail.com",
+        "role": "Product Manager",
+        "links": []
+      },
+      {
+        "name": "Mohammad Matin Hazrati",
+        "email": "hazratimohammadmatin@gmail.com",
+        "role": "Head of Exercises & Workshop",
+        "links": [
+          {
+            "LinkedIn": "https://www.linkedin.com/in/mohammadmatin-h-7b4209216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          },
+          {
+            "GitHub": "https://github.com/John-6670"
+          }
+        ]
+      },
+      {
+        "name": "Danial Darroudy",
+        "email": "danialdarroudy1383@gmail.com",
+        "role": "Exercises & Workshop",
+        "links": [
+          {
+            "GitHub": "https://github.com/DanialDarroudy"
+          }
+        ]
+      },
+      {
+        "name": "Zahra Masoumi",
+        "email": "zahraamasoumi@gmail.com",
+        "role": "Exercises & Workshop",
+        "links": [
+          {
+            "LinkedIn": "https://www.linkedin.com/in/zahra-masoumi-187448232"
+          },
+          {
+            "GitHub": "https://github.com/asAlwaysZahra"
+          }
+        ]
+      },
+      {
+        "name": "Hossein Paymard",
+        "email": "paymard.pro@gmail.com",
+        "role": "Exercises",
+        "links": [
+          {
+            "LinkedIn": "https://www.linkedin.com/in/hossein-paymard-2427b9389"
+          },
+          {
+            "GitHub": "https://github.com/paymard-pro"
+          }
+        ]
+      },
+      {
+        "name": "Hamid Reza Afshari",
+        "email": "h.r.afshari84@gmail.com",
+        "role": "Exercises",
+        "links": []
+      },
+      {
+        "name": "Faezeh Alinezhad",
+        "email": "f.alinejad1251@gmail.com",
+        "role": "Exercises",
+        "links": []
+      },
+      {
+        "name": "Elham Gholami",
+        "email": "el1300.gh@gmail.com",
+        "role": "Exercises",
+        "links": [
+          {
+            "LinkedIn": "https://www.linkedin.com/in/elham-gholami-9185ab223/"
+          }
+        ]
+      },
+      {
+        "name": "Roham Ghasemi",
+        "email": "roham8406@gmail.com",
+        "role": "Exercises",
+        "links": [
+          {
+            "LinkedIn": "https://www.linkedin.com/in/roham-ghasemi/"
+          },
+          {
+            "GitHub": "https://github.com/Roham8406"
+          }
+        ]
+      },
+      {
+        "name": "Mohammad Mehdi Abedini",
+        "email": "m.abedini30@yahoo.com",
+        "role": "Exams",
+        "links": []
+      },
+      {
+        "name": "Yasaman Kavianpour",
+        "email": "Jasmin.kvp@gmail.com",
+        "role": "Exams",
+        "links": [
+          {
+            "GitHub": "https://github.com/jknewworld"
+          }
+        ]
+      }
     ]
   }
 }
+
