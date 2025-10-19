@@ -175,7 +175,7 @@
       {
         "name": "Hossein Masihi",
         "email": "hossein.msh44@sharif.edu",
-        "role": "Head TA",
+        "role": "ندارم",
         "homepage": "https://masihii.ir",
         "links": [
           {
@@ -188,19 +188,21 @@
         "email": "sohaibsadeghy@gmail.com",
         "role": "Head TA",
         "links": [
-          {"GitHub":"https://github.com/sohaib-sadeqi"}
+          {
+            "GitHub": "https://github.com/sohaib-sadeqi"
+          }
         ]
       },
       {
-        "name": "Aeen Karimian",
-        "email": "aeenkarimian@gmail.com",
-        "role": "Product Owner",
+        "name": "Mohammad Matin Hazrati",
+        "email": "hazratimohammadmatin@gmail.com",
+        "role": "Head of Exercises & Workshop",
         "links": [
           {
-            "LinkedIn": "https://www.linkedin.com/in/aeen-karimian-046a13217/"
+            "LinkedIn": "https://www.linkedin.com/in/mohammadmatin-h-7b4209216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           },
           {
-            "GitHub": "https://github.com/A-K-6"
+            "GitHub": "https://github.com/John-6670"
           }
         ]
       },
@@ -214,6 +216,19 @@
           },
           {
             "GitHub": "https://github.com/mr-arashnm"
+          }
+        ]
+      },
+      {
+        "name": "Aeen Karimian",
+        "email": "aeenkarimian@gmail.com",
+        "role": "Product Owner",
+        "links": [
+          {
+            "LinkedIn": "https://www.linkedin.com/in/aeen-karimian-046a13217/"
+          },
+          {
+            "GitHub": "https://github.com/A-K-6"
           }
         ]
       },
@@ -254,19 +269,6 @@
         "email": "ramtin.barzkar.3@gmail.com",
         "role": "Product Manager",
         "links": []
-      },
-      {
-        "name": "Mohammad Matin Hazrati",
-        "email": "hazratimohammadmatin@gmail.com",
-        "role": "Head of Exercises & Workshop",
-        "links": [
-          {
-            "LinkedIn": "https://www.linkedin.com/in/mohammadmatin-h-7b4209216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          },
-          {
-            "GitHub": "https://github.com/John-6670"
-          }
-        ]
       },
       {
         "name": "Danial Darroudy",
