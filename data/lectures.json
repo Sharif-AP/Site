@@ -185,7 +185,7 @@
         "links": [
           {
             "label": "GitHub",
-            "href": "https://github.com/hosseinMsh"
+            "url": "https://github.com/hosseinMsh"
           }
         ]
       },
@@ -195,12 +195,13 @@
         "role": "Head TA",
         "areas": [
           "exercises",
+          "workshops",
           "projects"
         ],
         "links": [
           {
             "label": "GitHub",
-            "href": "https://github.com/sohaib-sadeqi"
+            "url": "https://github.com/sohaib-sadeqi"
           }
         ]
       },
@@ -214,11 +215,11 @@
         "links": [
           {
             "label": "LinkedIn",
-            "href": "https://www.linkedin.com/in/mr-arashnm"
+            "url": "https://www.linkedin.com/in/mr-arashnm"
           },
           {
             "label": "GitHub",
-            "href": "https://github.com/mr-arashnm"
+            "url": "https://github.com/mr-arashnm"
           }
         ]
       },
@@ -232,11 +233,11 @@
         "links": [
           {
             "label": "LinkedIn",
-            "href": "https://www.linkedin.com/in/aeen-karimian-046a13217/"
+            "url": "https://www.linkedin.com/in/aeen-karimian-046a13217/"
           },
           {
             "label": "GitHub",
-            "href": "https://github.com/A-K-6"
+            "url": "https://github.com/A-K-6"
           }
         ]
       },
@@ -250,7 +251,7 @@
         "links": [
           {
             "label": "GitHub",
-            "href": "https://github.com/srmp47"
+            "url": "https://github.com/srmp47"
           }
         ]
       },
@@ -282,7 +283,7 @@
         "links": [
           {
             "label": "GitHub",
-            "href": "https://github.com/SurenNTKY"
+            "url": "https://github.com/SurenNTKY"
           }
         ]
       },
@@ -306,11 +307,11 @@
         "links": [
           {
             "label": "LinkedIn",
-            "href": "https://www.linkedin.com/in/mohammadmatin-h-7b4209216"
+            "url": "https://www.linkedin.com/in/mohammadmatin-h-7b4209216"
           },
           {
             "label": "GitHub",
-            "href": "https://github.com/John-6670"
+            "url": "https://github.com/John-6670"
           }
         ]
       },
@@ -325,7 +326,7 @@
         "links": [
           {
             "label": "GitHub",
-            "href": "https://github.com/DanialDarroudy"
+            "url": "https://github.com/DanialDarroudy"
           }
         ]
       },
@@ -340,11 +341,11 @@
         "links": [
           {
             "label": "LinkedIn",
-            "href": "https://www.linkedin.com/in/zahra-masoumi-187448232"
+            "url": "https://www.linkedin.com/in/zahra-masoumi-187448232"
           },
           {
             "label": "GitHub",
-            "href": "https://github.com/asAlwaysZahra"
+            "url": "https://github.com/asAlwaysZahra"
           }
         ]
       },
@@ -358,11 +359,11 @@
         "links": [
           {
             "label": "LinkedIn",
-            "href": "https://www.linkedin.com/in/hossein-paymard-2427b9389"
+            "url": "https://www.linkedin.com/in/hossein-paymard-2427b9389"
           },
           {
             "label": "GitHub",
-            "href": "https://github.com/paymard-pro"
+            "url": "https://github.com/paymard-pro"
           }
         ]
       },
@@ -394,7 +395,7 @@
         "links": [
           {
             "label": "LinkedIn",
-            "href": "https://www.linkedin.com/in/elham-gholami-9185ab223/"
+            "url": "https://www.linkedin.com/in/elham-gholami-9185ab223/"
           }
         ]
       },
@@ -408,11 +409,11 @@
         "links": [
           {
             "label": "LinkedIn",
-            "href": "https://www.linkedin.com/in/roham-ghasemi/"
+            "url": "https://www.linkedin.com/in/roham-ghasemi/"
           },
           {
             "label": "GitHub",
-            "href": "https://github.com/Roham8406"
+            "url": "https://github.com/Roham8406"
           }
         ]
       },
@@ -435,7 +436,7 @@
         "links": [
           {
             "label": "GitHub",
-            "href": "https://github.com/jknewworld"
+            "url": "https://github.com/jknewworld"
           }
         ]
       }

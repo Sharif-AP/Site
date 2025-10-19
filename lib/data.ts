@@ -73,8 +73,11 @@ export interface TeamMember {
   role?: string
   homepage?: string
   office?: string
+  photo?: string
+  areas?: string[]
   links?: Array<{ label: string; url: string }>
 }
+
 
 export interface CourseData {
   meta: {
