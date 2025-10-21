@@ -169,14 +169,16 @@
       "name": "Ali Najimi",
       "email": "najimi@sharif.edu",
       "homepage": "",
+      "photo" : "https://captcha.sharif.ir/static/img/team/Ali%20Najimi.png",
       "office": "CE Department"
     },
     "tas": [
       {
         "name": "Hossein Masihi",
         "email": "hossein.msh44@sharif.edu",
-        "role": "Head TA",
+        "role": "Head",
         "homepage": "https://masihii.ir",
+        "photo": "https://captcha.sharif.ir/static/img/team/HosseinMasihi.jpg",
         "areas": [
           "exercises",
           "workshops",
