@@ -99,10 +99,11 @@ export default function PoliciesPage() {
                                         <span className="font-medium">Homework Assignments</span>
                                         <span className="text-muted-foreground">6 pts</span>
                                     </div>
+                                    <div className=" border-b">
                                     <div className="flex justify-between items-center pb-2 border-b">
                                         <span className="font-medium">Exams (Midterm + Final)</span>
                                         <span className="text-muted-foreground">6 pts</span>
-
+                                    </div>
                                     <div className="mt-4 rounded-lg border p-4">
                                         <p className="text-sm font-medium mb-2">Exam scoring uses the better of two
                                             modes:</p>
