@@ -46,7 +46,7 @@ export default function ApRotatingLogo({ size = 96, src = "https://cdn.shraif.ir
 
             {/* Static center label */}
             <div className="relative select-none font-semibold tracking-wider"
-                 style={{ fontSize: Math.round(size * 0.28) }}>
+                 style={{ fontSize: Math.round(size * 0.35) }}>
                 AP
             </div>
         </div>
