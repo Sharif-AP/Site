@@ -99,8 +99,27 @@ export default function PoliciesPage() {
                                         <span className="font-medium">Homework Assignments</span>
                                         <span className="text-muted-foreground">6 pts</span>
                                     </div>
-                                    <div className=" border-b">
-                                    <div className="flex justify-between items-center pb-2 border-b">
+                                    <div className="pb-2 border-b">
+
+
+                                        <div className="flex justify-between items-center">
+                                            <span className="font-medium">Workshops (Bonus)</span>
+                                            <span className="text-muted-foreground">+1 pt (extra credit)</span>
+                                        </div>
+
+                                        <div className="mt-2 rounded-lg border p-4">
+                                            <p className="text-sm font-medium mb-2">Workshop bonus distribution</p>
+                                            <p className="text-sm">
+                                                Workshop credit is optional and distributed proportionally across
+                                                homeworks;
+                                                you
+                                                must attend the related workshop
+                                                and earn the corresponding homework score to receive that portion of the
+                                                bonus.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="flex justify-between items-center">
                                         <span className="font-medium">Exams (Midterm + Final)</span>
                                         <span className="text-muted-foreground">6 pts</span>
                                     </div>
@@ -113,22 +132,6 @@ export default function PoliciesPage() {
                                         </ul>
                                         <p className="text-xs text-muted-foreground mt-2">
                                             The higher resulting total is recorded as your exam score.
-                                        </p>
-                                    </div>
-                                    </div>
-                                    <div className="flex justify-between items-center">
-                                        <span className="font-medium">Workshops (Bonus)</span>
-                                        <span className="text-muted-foreground">+1 pt (extra credit)</span>
-                                    </div>
-
-                                    <div className="mt-2 rounded-lg border p-4">
-                                        <p className="text-sm font-medium mb-2">Workshop bonus distribution</p>
-                                        <p className="text-sm">
-                                            Workshop credit is optional and distributed proportionally across homeworks;
-                                            you
-                                            must attend the related workshop
-                                            and earn the corresponding homework score to receive that portion of the
-                                            bonus.
                                         </p>
                                     </div>
                                 </div>
