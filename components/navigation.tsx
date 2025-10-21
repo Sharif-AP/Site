@@ -27,8 +27,8 @@ export function Navigation() {
                 <div className="flex items-center justify-between h-16">
                     <Link href="/" className="flex items-center gap-2">
                         <span data-slot="avatar" class="relative size-10  overflow-hidden rounded-full"><img
-                            data-slot="avatar-image" class="aspect-square overflow-hidden" alt="Ali Najimi"
-                            src="https://cdn.shraif.ir/cdn/ictc/tempalte/images/logo-dark.png"></span>
+                            data-slot="avatar-image" class="aspect-square overflow-hidden" alt="logo"
+                            src="https://cdn.shraif.ir/cdn/main/ap/logo-dark.png"></span>
                         <div className="hidden sm:block text-sm text-muted-foreground">Advanced Programming</div>
                     </Link>
 
