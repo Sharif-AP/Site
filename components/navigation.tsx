@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import { useState } from "react"
 import { ThemeToggle } from "@/components/theme-toggle"
+import {ApRotatingLogo} from "@/components/ApRotatingLogo"
 
 const navItems = [
     { label: "Home", href: "/" },
@@ -27,18 +28,14 @@ export function Navigation() {
                 <div className="flex items-center justify-between h-16">
                     <Link href="/" className="flex items-center gap-2">
                         {/* Use className in JSX and self-close the img */}
-                        <span
-                            data-slot="avatar"
-                            className="relative size-10 overflow-hidden rounded-full"
-                        >
-              <img
-                  data-slot="avatar-image"
-                  className="aspect-square overflow-hidden"
-                  alt="logo"
-                  src="https://cdn.shraif.ir/cdn/main/ap/logo-dark.png"
-                  loading="lazy"
-              />
-            </span>
+                        {/* Inside your Navigation component */}
+                        <Link href="/" className="flex items-center gap-2">
+                            <ApRotatingLogo size={40} />
+                            <div className="hidden sm:block text-sm text-muted-foreground">
+                                Advanced Programming
+                            </div>
+                        </Link>
+
                         <div className="hidden sm:block text-sm text-muted-foreground">
                             Advanced Programming
                         </div>
