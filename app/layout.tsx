@@ -10,7 +10,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "AP — Advanced Programming",
   description: "Advanced Programming course at Sharif University",
-  generator: "v0.app",
+  generator: "Hossein Masihi",
 }
 
 export default function RootLayout({

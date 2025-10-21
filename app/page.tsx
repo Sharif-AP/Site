@@ -147,7 +147,7 @@ export default function HomePage() {
                     <CardContent className="space-y-3">
                       <div>
                         <div className="font-semibold text-sm text-muted-foreground">Email</div>
-                        <a href="mailto:ap@sharif.edu" className="text-primary hover:underline">
+                        <a href="mailto:ap@sharif.ir" className="text-primary hover:underline">
                           ap@sharif.edu
                         </a>
                       </div>
