@@ -9,7 +9,7 @@ type Props = {
     src?: string  // ring image (transparent center)
 }
 
-export default function ApRotatingLogo({ size = 96, src = "https://cdn.shraif.ir/cdn/main/ap/logo-dark.png" }: Props) {
+export default function ApRotatingLogo({ size = 96, src = "https://cdn.shraif.ir/cdn/main/ap/logo-dark-1-.png" }: Props) {
     const [reduced, setReduced] = useState(false)
 
     // Respect user's reduced motion preference

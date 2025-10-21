@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import { useState } from "react"
 import { ThemeToggle } from "@/components/theme-toggle"
-import {ApRotatingLogo} from "@/components/ApRotatingLogo"
+import ApRotatingLogo from "@/components/ApRotatingLogo"
 
 const navItems = [
     { label: "Home", href: "/" },
