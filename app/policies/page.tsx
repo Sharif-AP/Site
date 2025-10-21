@@ -103,32 +103,34 @@ export default function PoliciesPage() {
                                         <span className="font-medium">Exams (Midterm + Final)</span>
                                         <span className="text-muted-foreground">6 pts</span>
                                     </div>
+                                    <div className="mt-4 rounded-lg border p-4">
+                                        <p className="text-sm font-medium mb-2">Exam scoring uses the better of two
+                                            modes:</p>
+                                        <ul className="text-sm space-y-1">
+                                            <li>Mode A — Midterm: 2 pts, Final: 4 pts</li>
+                                            <li>Mode B — Midterm: 4 pts, Final: 2 pts</li>
+                                        </ul>
+                                        <p className="text-xs text-muted-foreground mt-2">
+                                            The higher resulting total is recorded as your exam score.
+                                        </p>
+                                    </div>
                                     <div className="flex justify-between items-center">
                                         <span className="font-medium">Workshops (Bonus)</span>
                                         <span className="text-muted-foreground">+1 pt (extra credit)</span>
                                     </div>
+
+                                    <div className="mt-2 rounded-lg border p-4">
+                                        <p className="text-sm font-medium mb-2">Workshop bonus distribution</p>
+                                        <p className="text-sm">
+                                            Workshop credit is optional and distributed proportionally across homeworks;
+                                            you
+                                            must attend the related workshop
+                                            and earn the corresponding homework score to receive that portion of the
+                                            bonus.
+                                        </p>
+                                    </div>
                                 </div>
 
-                                <div className="mt-4 rounded-lg border p-4">
-                                    <p className="text-sm font-medium mb-2">Exam scoring uses the better of two
-                                        modes:</p>
-                                    <ul className="text-sm space-y-1">
-                                        <li>Mode A — Midterm: 2 pts, Final: 4 pts</li>
-                                        <li>Mode B — Midterm: 4 pts, Final: 2 pts</li>
-                                    </ul>
-                                    <p className="text-xs text-muted-foreground mt-2">
-                                        The higher resulting total is recorded as your exam score.
-                                    </p>
-                                </div>
-
-                                <div className="mt-2 rounded-lg border p-4">
-                                    <p className="text-sm font-medium mb-2">Workshop bonus distribution</p>
-                                    <p className="text-sm">
-                                        Workshop credit is optional and distributed proportionally across homeworks; you
-                                        must attend the related workshop
-                                        and earn the corresponding homework score to receive that portion of the bonus.
-                                    </p>
-                                </div>
                             </CardContent>
                         </Card>
 
@@ -364,12 +366,12 @@ export default function PoliciesPage() {
                                         {/* Quera link provided by user */}
                                         <span>
                       <a
-                          href="https://quera.org/course/23972"
+                          href="https://quera.org/course/add_to_course/course/23972/"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="underline hover:text-primary"
                       >
-                        Quera — Course 23972
+                        Quera
                       </a>{" "}
                                             — official announcements, slides, homeworks, project specs, and grading.
                     </span>
@@ -379,7 +381,7 @@ export default function PoliciesPage() {
                                         {/* Site root is this project */}
                                         <span>
                       <a href="/" className="underline hover:text-primary">
-                        Course Website (this site)
+                        Course Website
                       </a>{" "}
                                             — syllabus, slides, team list, and project list.
                     </span>
@@ -390,7 +392,7 @@ export default function PoliciesPage() {
                                     </li>
                                     <li className="flex items-start gap-2">
                                         <LinkIcon className="h-4 w-4 mt-1 text-primary"/>
-                                        <span>Bale group — for emergencies (e.g., limited external internet).</span>
+                                        <span>Bale group — for emergencies (limited external internet, e.g.).</span>
                                     </li>
                                 </ul>
                                 <div className="pt-3 border-t">
