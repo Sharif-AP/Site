@@ -43,21 +43,21 @@ export interface Workshop {
 }
 
 export interface ProjectPhase {
-  id: string;
-  title: string;
-  date: string;
-  deadline: string;
-  assets: { pdf?: string; external?: string };
+  id: string
+  title: string
+  date: string
+  deadline: string
+  assets: {
+    pdf?: string | null
+    external?: string | null
+  }
 }
 
 export interface Project {
-  id: string;
-  slug: string;
-  title: string;
-  description: string;
-  docUrl?: string;
-  tags?: string[];
-  phases: ProjectPhase[];
+  id: string
+  title: string
+  description: string
+  phases: ProjectPhase[]
 }
 
 
