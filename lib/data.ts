@@ -64,7 +64,7 @@ export interface Project {
 export interface TimelineEvent {
   date: string
   label: string
-  link: string
+  link: string | null
   category: "lecture" | "exercise" | "workshop" | "project"
 }
 
