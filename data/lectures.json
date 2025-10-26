@@ -119,31 +119,40 @@
     ],
   "projects": [
     {
-      "id": "proj-01",
-      "title": "AP Project",
-      "description": "A multi-phase course project.",
+      "id": "p-event-manager",
+      "slug": "event-manager",
+      "title": "Event Manager",
+      "description": "End-to-end event definition, ticketing, roles, and reporting.",
+      "docUrl": "/projects/event-manager/doc.pdf",
+      "tags": [
+        "OOP",
+        "UML",
+        "tickets"
+      ],
       "phases": [
         {
-          "id": "phase-1",
-          "title": "Phase 1 — Requirements",
-          "date": "2025-10-11",
-          "deadline": "2025-10-25",
+          "id": "em-p1",
+          "title": "Analysis & Use Cases",
+          "date": "2025-10-10",
+          "deadline": "2025-10-20",
           "assets": {
-            "pdf": null,
-            "external": "https://example.com/project-guidelines-phase-1"
-          }
-        },
-        {
-          "id": "phase-2",
-          "title": "Phase 2 — Design",
-          "date": "2025-11-01",
-          "deadline": "2025-11-15",
-          "assets": {
-            "pdf": null,
-            "external": "https://example.com/project-guidelines-phase-2"
+            "pdf": "/projects/event-manager/doc.pdf"
           }
         }
       ]
+    },
+    {
+      "id": "p-coworking",
+      "slug": "coworking-space",
+      "title": "Coworking Space",
+      "description": "Workspace, reservations, waitlist, payments, invoices.",
+      "docUrl": "/projects/coworking-space/doc.pdf",
+      "tags": [
+        "Reservations",
+        "Payments",
+        "Reports"
+      ],
+      "phases": []
     }
   ],
   "timeline": [
@@ -181,7 +190,7 @@
       "name": "Ali Najimi",
       "email": "najimi@sharif.edu",
       "homepage": "",
-      "photo" : "https://captcha.sharif.ir/static/img/team/Ali%20Najimi.png",
+      "photo": "https://captcha.sharif.ir/static/img/team/Ali%20Najimi.png",
       "office": "CE Department"
     },
     "tas": [

@@ -43,22 +43,23 @@ export interface Workshop {
 }
 
 export interface ProjectPhase {
-  id: string
-  title: string
-  date: string
-  deadline: string
-  assets: {
-    pdf?: string | null
-    external?: string | null
-  }
+  id: string;
+  title: string;
+  date: string;
+  deadline: string;
+  assets: { pdf?: string; external?: string };
 }
 
 export interface Project {
-  id: string
-  title: string
-  description: string
-  phases: ProjectPhase[]
+  id: string;
+  slug: string;
+  title: string;
+  description: string;
+  docUrl?: string;
+  tags?: string[];
+  phases: ProjectPhase[];
 }
+
 
 export interface TimelineEvent {
   date: string
