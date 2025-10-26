@@ -1,15 +1,12 @@
-import { Navigation } from "@/components/navigation"
-import { Footer } from "@/components/footer"
-import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Calendar, BookOpen, Code, Users, Target, ExternalLink } from "lucide-react"
+import {Navigation} from "@/components/navigation"
+import {Footer} from "@/components/footer"
+import {Card, CardContent} from "@/components/ui/card"
+import {Badge} from "@/components/ui/badge"
+import {Button} from "@/components/ui/button"
+import {Calendar, BookOpen, Code, Users, Target, ExternalLink} from "lucide-react"
 import lecturesData from "@/data/lectures.json"
 
-const categoryConfig: Record<
-    string,
-    { icon: any; color: string; label: string }
-> = {
+const categoryConfig = {
     lecture: {
         icon: BookOpen,
         color: "bg-primary/10 text-primary border-primary/20",
@@ -32,42 +29,14 @@ const categoryConfig: Record<
     },
 }
 
-// Fallback for unknown/missing categories
-const DEFAULT_CATEGORY = {
-    icon: Calendar,
-    color: "bg-muted text-foreground border-border",
-    label: "Event",
-}
-
-// Safe getter for category config
-function getCategory(cat?: string) {
-    return (cat && categoryConfig[cat]) || DEFAULT_CATEGORY
-}
-
-// Safe date parser (returns null on invalid)
-function parseISODate(d?: string | null): Date | null {
-    if (!d) return null
-    const t = Date.parse(d)
-    return isNaN(t) ? null : new Date(t)
-}
-
-// Sort with invalid dates last
-function compareDates(a: any, b: any) {
-    const da = parseISODate(a.date)
-    const db = parseISODate(b.date)
-    const ta = da ? da.getTime() : Number.POSITIVE_INFINITY
-    const tb = db ? db.getTime() : Number.POSITIVE_INFINITY
-    return ta - tb
-}
-
 export default function TimelinePage() {
-    const { timeline = [] } = lecturesData as { timeline: any[] }
+    const {timeline} = lecturesData
 
-    const sortedTimeline = [...timeline].sort(compareDates)
+    const sortedTimeline = [...timeline].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
 
     return (
         <div className="min-h-screen flex flex-col">
-            <Navigation />
+            <Navigation/>
 
             <main className="flex-1">
                 {/* Header */}
@@ -86,12 +55,12 @@ export default function TimelinePage() {
                 <section className="container mx-auto px-4 pt-12">
                     <div className="max-w-4xl mx-auto">
                         <div className="flex flex-wrap gap-3 justify-center mb-8">
-                            {Object.entries(categoryConfig).map(([key, cfg]) => {
-                                const Icon = cfg.icon || Calendar
+                            {Object.entries(categoryConfig).map(([key, config]) => {
+                                const Icon = config.icon
                                 return (
-                                    <Badge key={key} variant="outline" className={`${cfg.color} px-3 py-1.5`}>
-                                        <Icon className="h-3.5 w-3.5 mr-1.5" />
-                                        {cfg.label}
+                                    <Badge key={key} variant="outline" className={`${config.color} px-3 py-1.5`}>
+                                        <Icon className="h-3.5 w-3.5 mr-1.5"/>
+                                        {config.label}
                                     </Badge>
                                 )
                             })}
@@ -104,64 +73,56 @@ export default function TimelinePage() {
                     <div className="max-w-4xl mx-auto">
                         <div className="relative">
                             {/* Timeline line */}
-                            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-border" />
+                            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-border"/>
 
                             {/* Timeline items */}
                             <div className="space-y-6">
                                 {sortedTimeline.map((event, index) => {
-                                    const cfg = getCategory(event?.category)
-                                    const Icon = cfg.icon || Calendar
-                                    const dateObj = parseISODate(event?.date)
-                                    const isPast = dateObj ? dateObj < new Date() : false
-
-                                    // First color token (e.g., "bg-primary/10") for the dot; fallback if missing
-                                    const dotColor = (cfg.color?.split(" ")?.[0]) || "bg-muted-foreground"
+                                    const config = categoryConfig[event.category]
+                                    const Icon = config.icon
+                                    const isPast = new Date(event.date) < new Date()
 
                                     return (
                                         <div key={index} className="relative pl-20">
                                             {/* Timeline dot */}
                                             <div
-                                                className={`absolute left-6 top-6 h-5 w-5 rounded-full border-4 border-background ${
-                                                    isPast ? "bg-muted-foreground" : dotColor
-                                                }`}
+                                                className={`absolute left-6 top-6 h-5 w-5 rounded-full border-4 border-background ${isPast ? "bg-muted-foreground" : config.color.split(" ")[0]}`}
                                             />
 
-                                            <Card className={`hover:border-primary/50 transition-colors ${isPast ? "opacity-75" : ""}`}>
+                                            <Card
+                                                className={`hover:border-primary/50 transition-colors ${isPast ? "opacity-75" : ""}`}>
                                                 <CardContent className="pt-6">
                                                     <div className="flex items-start justify-between gap-4 mb-3">
                                                         <div className="flex items-center gap-2">
-                                                            <Badge variant="outline" className={cfg.color}>
-                                                                <Icon className="h-3 w-3 mr-1" />
-                                                                {cfg.label}
+                                                            <Badge variant="outline" className={config.color}>
+                                                                <Icon className="h-3 w-3 mr-1"/>
+                                                                {config.label}
                                                             </Badge>
-
-                                                            <span className="text-sm text-muted-foreground flex items-center gap-1">
-                                <Calendar className="h-3.5 w-3.5" />
-                                                                {dateObj
-                                                                    ? dateObj.toLocaleDateString("en-US", {
-                                                                        month: "short",
-                                                                        day: "numeric",
-                                                                        year: "numeric",
-                                                                    })
-                                                                    : "TBD"}
+                                                            <span
+                                                                className="text-sm text-muted-foreground flex items-center gap-1">
+                                <Calendar className="h-3.5 w-3.5"/>
+                                                                {new Date(event.date).toLocaleDateString("en-US", {
+                                                                    month: "short",
+                                                                    day: "numeric",
+                                                                    year: "numeric",
+                                                                })}
                               </span>
                                                         </div>
                                                     </div>
-
-                                                    <h3 className="font-semibold text-lg mb-2">{event?.label ?? "Untitled Event"}</h3>
-
-                                                    {event?.link ? (
+                                                    <h3 className="font-semibold text-lg mb-2">{event.label}</h3>
+                                                    {event.link ? (
                                                         <a
                                                             href={event.link}
                                                             target={event.link?.startsWith("http") ? "_blank" : undefined}
                                                             rel={event.link?.startsWith("http") ? "noopener noreferrer" : undefined}
                                                         >
                                                             <Button variant="outline" size="sm">
-                                                                <ExternalLink className="h-3.5 w-3.5 mr-2" />
+                                                                <ExternalLink className="h-3.5 w-3.5 mr-2"/>
                                                                 View Details
                                                             </Button>
                                                         </a>
                                                     ) : null}
+
                                                 </CardContent>
                                             </Card>
                                         </div>
@@ -173,7 +134,7 @@ export default function TimelinePage() {
                 </section>
             </main>
 
-            <Footer />
+            <Footer/>
         </div>
     )
 }
