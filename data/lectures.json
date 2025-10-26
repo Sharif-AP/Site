@@ -35,957 +35,140 @@
   },
   "lectures": [
     {
-      "id": "lec-01-java-intro",
+      "id": "ap-intro",
       "week": 1,
-      "date": "2025-10-11",
-      "title": "Java Introduction",
+      "date": "2025-09-20",
+      "title": "Course Overview & Policies",
       "tags": [
-        "java",
-        "intro"
+        "intro",
+        "course"
       ],
       "assets": {
-        "html": "slides/lec-01.html",
-        "pdf": "slides/lec-01.pdf",
-        "pptx": "slides/lec-01.pptx",
+        "html": "/slides/00-course-intro.html",
+        "pdf": "slides/ap-intro.pdf",
+        "pptx": "slides/ap-intro.pptx",
         "external": null
       },
-      "description": "History & Programming; What is Java? (JVM, versions, adoption); Why Java? (uses, frameworks); Hello World!",
-      "upcoming": false
+      "description": "Syllabus, grading, project phases, logistics."
     },
     {
-      "id": "lec-02-java-basics",
-      "week": 1,
-      "date": "2025-10-13",
-      "title": "Java Basics",
+      "id": "java-basics-1",
+      "week": 2,
+      "date": "2025-09-27",
+      "title": "Java Basics I",
       "tags": [
         "java",
         "basics"
       ],
       "assets": {
-        "html": "slides/lec-02.html",
-        "pdf": "slides/lec-02.pdf",
-        "pptx": "slides/lec-02.pptx",
+        "html": "slides/java-basics-1.html",
+        "pdf": "slides/java-basics-1.pdf",
+        "pptx": "slides/java-basics-1.pptx",
         "external": null
       },
-      "description": "Primitive data types; methods; control flow; strings; arrays.",
-      "upcoming": false
-    },
-    {
-      "id": "lec-03-oop-intro",
-      "week": 2,
-      "date": "2025-10-18",
-      "title": "OOP Introduction",
-      "tags": [
-        "oop"
-      ],
-      "assets": {
-        "html": "slides/lec-03.html",
-        "pdf": "slides/lec-03.pdf",
-        "pptx": "slides/lec-03.pptx",
-        "external": null
-      },
-      "description": "History (Machine→Assembly→Structured→Procedural→OOP); object; properties/attributes; procedures/methods; class.",
-      "upcoming": false
-    },
-    {
-      "id": "lec-04-oop-intro-2",
-      "week": 2,
-      "date": "2025-10-20",
-      "title": "OOP Introduction II",
-      "tags": [
-        "oop"
-      ],
-      "assets": {
-        "html": "slides/lec-04.html",
-        "pdf": "slides/lec-04.pdf",
-        "pptx": "slides/lec-04.pptx",
-        "external": null
-      },
-      "description": "Review; OOP design & thinking; encapsulation; interface; class; package; access modifiers.",
-      "upcoming": false
-    },
-    {
-      "id": "lec-05-oop-java-1",
-      "week": 3,
-      "date": "2025-10-25",
-      "title": "OOP in Java I",
-      "tags": [
-        "oop",
-        "java"
-      ],
-      "assets": {
-        "html": "slides/lec-05.html",
-        "pdf": "slides/lec-05.pdf",
-        "pptx": "slides/lec-05.pptx",
-        "external": null
-      },
-      "description": "Creating classes; memory model (objects in memory); initialization/loading; destruction & GC.",
-      "upcoming": false
-    },
-    {
-      "id": "lec-06-oop-java-2",
-      "week": 3,
-      "date": "2025-10-27",
-      "title": "OOP in Java II",
-      "tags": [
-        "oop",
-        "java"
-      ],
-      "assets": {
-        "html": "slides/lec-06.html",
-        "pdf": "slides/lec-06.pdf",
-        "pptx": "slides/lec-06.pptx",
-        "external": null
-      },
-      "description": "Parameter passing; constructors; this; static; packages; intro to UML.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-07-inheritance",
-      "week": 4,
-      "date": "2025-11-01",
-      "title": "Inheritance",
-      "tags": [
-        "oop"
-      ],
-      "assets": {
-        "html": "slides/lec-07.html",
-        "pdf": "slides/lec-07.pdf",
-        "pptx": "slides/lec-07.pptx",
-        "external": null
-      },
-      "description": "Concept; protected, abstract, super; note on multiple inheritance in other languages.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-08-polymorphism",
-      "week": 4,
-      "date": "2025-11-03",
-      "title": "Polymorphism",
-      "tags": [
-        "oop"
-      ],
-      "assets": {
-        "html": "slides/lec-08.html",
-        "pdf": "slides/lec-08.pdf",
-        "pptx": "slides/lec-08.pptx",
-        "external": null
-      },
-      "description": "Concept; implementing with inheritance; final properties.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-09-interface",
-      "week": 5,
-      "date": "2025-11-08",
-      "title": "Interface",
-      "tags": [
-        "oop"
-      ],
-      "assets": {
-        "html": "slides/lec-09.html",
-        "pdf": "slides/lec-09.pdf",
-        "pptx": "slides/lec-09.pptx",
-        "external": null
-      },
-      "description": "Interface concept; multiple interfaces.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-10-testing",
-      "week": 5,
-      "date": "2025-11-10",
-      "title": "Software Testing",
-      "tags": [
-        "testing"
-      ],
-      "assets": {
-        "html": "slides/lec-10.html",
-        "pdf": "slides/lec-10.pdf",
-        "pptx": "slides/lec-10.pptx",
-        "external": null
-      },
-      "description": "QA; unit tests; JUnit; throwing exceptions; mocking.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-11-design-patterns",
-      "week": 6,
-      "date": "2025-11-15",
-      "title": "Design Patterns",
-      "tags": [
-        "design-patterns"
-      ],
-      "assets": {
-        "html": "slides/lec-11.html",
-        "pdf": "slides/lec-11.pdf",
-        "pptx": "slides/lec-11.pptx",
-        "external": null
-      },
-      "description": "Concept; GoF patterns; other patterns.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-12-refactoring",
-      "week": 6,
-      "date": "2025-11-17",
-      "title": "Refactoring",
-      "tags": [
-        "refactoring",
-        "clean-code"
-      ],
-      "assets": {
-        "html": "slides/lec-12.html",
-        "pdf": "slides/lec-12.pdf",
-        "pptx": "slides/lec-12.pptx",
-        "external": null
-      },
-      "description": "Concept; clean code; code smells; refactoring patterns.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-13-exceptions",
-      "week": 7,
-      "date": "2025-11-22",
-      "title": "Error Handling & Exception Management",
-      "tags": [
-        "exceptions"
-      ],
-      "assets": {
-        "html": "slides/lec-13.html",
-        "pdf": "slides/lec-13.pdf",
-        "pptx": "slides/lec-13.pptx",
-        "external": null
-      },
-      "description": "Legacy error handling; Java exceptions platform; pros/cons; finally; runtime exceptions.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-14-review",
-      "week": 8,
-      "date": "2025-11-29",
-      "title": "Review",
-      "tags": [
-        "review"
-      ],
-      "assets": {
-        "html": "slides/lec-14.html",
-        "pdf": "slides/lec-14.pdf",
-        "pptx": "slides/lec-14.pptx",
-        "external": null
-      },
-      "description": "Comprehensive review of sessions 1–13.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-15-midterm",
-      "week": 8,
-      "date": "2025-12-01",
-      "title": "Mid-term Exam",
-      "tags": [
-        "exam",
-        "midterm"
-      ],
-      "assets": {
-        "html": null,
-        "pdf": null,
-        "pptx": null,
-        "external": null
-      },
-      "description": "Covers sessions 1–13.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-16-generics",
-      "week": 9,
-      "date": "2025-12-06",
-      "title": "Generics",
-      "tags": [
-        "generics"
-      ],
-      "assets": {
-        "html": "slides/lec-16.html",
-        "pdf": "slides/lec-16.pdf",
-        "pptx": "slides/lec-16.pptx",
-        "external": null
-      },
-      "description": "Generic concepts; generic classes & methods; object creation; inheritance with generics.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-17-containers",
-      "week": 9,
-      "date": "2025-12-08",
-      "title": "Containers",
-      "tags": [
-        "ds"
-      ],
-      "assets": {
-        "html": "slides/lec-17.html",
-        "pdf": "slides/lec-17.pdf",
-        "pptx": "slides/lec-17.pptx",
-        "external": null
-      },
-      "description": "Java data structures overview.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-18-io",
-      "week": 10,
-      "date": "2025-12-13",
-      "title": "File & Streams",
-      "tags": [
-        "io"
-      ],
-      "assets": {
-        "html": "slides/lec-18.html",
-        "pdf": "slides/lec-18.pdf",
-        "pptx": "slides/lec-18.pptx",
-        "external": null
-      },
-      "description": "Input/Output and serialization.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-19-network",
-      "week": 10,
-      "date": "2025-12-15",
-      "title": "Network",
-      "tags": [
-        "network"
-      ],
-      "assets": {
-        "html": "slides/lec-19.html",
-        "pdf": "slides/lec-19.pdf",
-        "pptx": "slides/lec-19.pptx",
-        "external": null
-      },
-      "description": "Socket programming.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-20-concurrency",
-      "week": 11,
-      "date": "2025-12-20",
-      "title": "Concurrency",
-      "tags": [
-        "concurrency"
-      ],
-      "assets": {
-        "html": "slides/lec-20.html",
-        "pdf": "slides/lec-20.pdf",
-        "pptx": "slides/lec-20.pptx",
-        "external": null
-      },
-      "description": "Concept; thread lifecycle; synchronization; critical sections.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-21-reflection",
-      "week": 11,
-      "date": "2025-12-22",
-      "title": "Reflection",
-      "tags": [
-        "reflection"
-      ],
-      "assets": {
-        "html": "slides/lec-21.html",
-        "pdf": "slides/lec-21.pdf",
-        "pptx": "slides/lec-21.pptx",
-        "external": null
-      },
-      "description": "RTTI; getClass(); reflection patterns.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-22-advanced-java",
-      "week": 12,
-      "date": "2025-12-27",
-      "title": "Advanced Java",
-      "tags": [
-        "advanced-java"
-      ],
-      "assets": {
-        "html": "slides/lec-22.html",
-        "pdf": "slides/lec-22.pdf",
-        "pptx": "slides/lec-22.pptx",
-        "external": null
-      },
-      "description": "Inner/anonymous classes; annotations; enums.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-23-review-project",
-      "week": 12,
-      "date": "2025-12-29",
-      "title": "Course Review & Project Review",
-      "tags": [
-        "review",
-        "project"
-      ],
-      "assets": {
-        "html": "slides/lec-23.html",
-        "pdf": "slides/lec-23.pdf",
-        "pptx": "slides/lec-23.pptx",
-        "external": null
-      },
-      "description": "Project check-in and course recap.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-24-python-advanced",
-      "week": 13,
-      "date": "2026-01-05",
-      "title": "Advanced Programming with Python",
-      "tags": [
-        "python",
-        "oop"
-      ],
-      "assets": {
-        "html": "slides/lec-24.html",
-        "pdf": "slides/lec-24.pdf",
-        "pptx": "slides/lec-24.pptx",
-        "external": null
-      },
-      "description": "OOP in Python; pros & cons; ORM; frameworks; Django & MVC.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-25-project-review-1",
-      "week": 14,
-      "date": "2026-01-10",
-      "title": "Project Review — What did you learn in AP? (I)",
-      "tags": [
-        "project",
-        "review"
-      ],
-      "assets": {
-        "html": "slides/lec-25.html",
-        "pdf": "slides/lec-25.pdf",
-        "pptx": "slides/lec-25.pptx",
-        "external": null
-      },
-      "description": "Reflections and demos.",
-      "upcoming": true
-    },
-    {
-      "id": "lec-26-project-review-2",
-      "week": 14,
-      "date": "2026-01-12",
-      "title": "Project Review — What did you learn in AP? (II)",
-      "tags": [
-        "project",
-        "review"
-      ],
-      "assets": {
-        "html": "slides/lec-26.html",
-        "pdf": "slides/lec-26.pdf",
-        "pptx": "slides/lec-26.pptx",
-        "external": null
-      },
-      "description": "Wrap-up and feedback.",
-      "upcoming": true
+      "description": "JVM, types, control flow, tooling."
     }
   ],
   "exercises": [
     {
-      "id": "hw0",
-      "title": "Homework 0",
-      "release": "2025-10-13",
-      "deadline": "2025-10-24",
-      "tags": [
-        "homework",
-        "java-basics"
-      ],
-      "assets": {
-        "pdf": "hw/hw0.pdf",
-        "zip": null,
-        "external": null
-      },
-      "description": "Java Introduction + Java Basics.",
-      "upcoming": false
-    },
-    {
       "id": "hw1",
+      "week": 2,
+      "date": "2025-09-28",
       "title": "Homework 1",
-      "release": "2025-10-27",
-      "deadline": "2025-11-07",
-      "late_deadline": "2025-11-14",
-      "tags": [
-        "homework",
-        "oop"
-      ],
-      "assets": {
-        "pdf": "hw/hw1.pdf",
-        "zip": null,
-        "external": null
-      },
-      "description": "OOP Introduction + OOP in Java.",
-      "upcoming": true
-    },
-    {
-      "id": "hw2",
-      "title": "Homework 2",
-      "release": "2025-11-17",
-      "deadline": "2025-11-28",
       "tags": [
         "homework"
       ],
       "assets": {
-        "pdf": "hw/hw2.pdf",
-        "zip": null,
+        "pdf": "slides/hw1.pdf",
         "external": null
       },
-      "description": "Inheritance, Polymorphism, Interface, Testing, Design Patterns, Refactoring.",
-      "upcoming": true
-    },
-    {
-      "id": "hw3",
-      "title": "Homework 3",
-      "release": "2025-12-15",
-      "deadline": "2025-12-26",
-      "tags": [
-        "homework"
-      ],
-      "assets": {
-        "pdf": "hw/hw3.pdf",
-        "zip": null,
-        "external": null
-      },
-      "description": "Exceptions, Generics, Containers, IO & Network.",
-      "upcoming": true
-    },
-    {
-      "id": "hw4",
-      "title": "Homework 4",
-      "release": "2025-12-29",
-      "deadline": "2026-01-09",
-      "tags": [
-        "homework"
-      ],
-      "assets": {
-        "pdf": "hw/hw4.pdf",
-        "zip": null,
-        "external": null
-      },
-      "description": "Concurrency, Reflection, Advanced Java.",
-      "upcoming": true
+      "description": "Basic Java tasks.",
+      "deadline": "2025-10-05"
     }
   ],
+  "workshops": [
+      {
+        "id": "git-basics-ws",
+        "week": 1,
+        "date": "2025-10-14",
+        "title": "Git Fundamentals Workshop",
+        "tags": ["git", "workshop"],
+        "assets": {
+          "html": "workshops/git-fundamentals.html",
+          "pdf": "workshops/git-fundamentals.pdf",
+          "external": null
+        },
+        "description": "Introduction to Git concepts: repositories, commits, branches, merges, and collaborative workflows on GitHub.",
+        "location": "V-Class"
+      },
+      {
+        "id": "linux-basics-ws",
+        "week": 1,
+        "date": "2025-10-14",
+        "title": "Linux Fundamentals Workshop",
+        "tags": ["linux", "workshop"],
+        "assets": {
+          "html": "workshops/linux-fundamentals.html",
+          "pdf": "workshops/linux-fundamentals.pdf",
+          "external": null
+        },
+        "description": "Hands-on introduction to Linux: Terminal basics, permissions, users & processes, package management, and shell scripting.",
+        "location": "V-Class"
+      }
+    ],
   "projects": [
     {
-      "id": "ap-project",
-      "title": "AP Course Project",
-      "description": "Three-phase project (teaming, requirements/planning, implementation, testing & extras).",
+      "id": "proj-01",
+      "title": "AP Project",
+      "description": "A multi-phase course project.",
       "phases": [
         {
-          "id": "phase-0",
-          "title": "Project Phase 0 — Teaming & Preferences",
-          "release": "2025-11-01",
-          "deadline": "2025-11-03",
-          "assets": {
-            "pdf": null,
-            "external": null
-          },
-          "description": "Team formation and project preference submission.",
-          "upcoming": true
-        },
-        {
           "id": "phase-1",
-          "title": "Project Phase 1 — Requirements & Planning",
-          "release": "2025-11-03",
-          "deadline": "2025-11-16",
-          "final_deadline": "2025-11-22",
-          "review": "2025-11-18",
+          "title": "Phase 1 — Requirements",
+          "date": "2025-10-11",
+          "deadline": "2025-10-25",
           "assets": {
             "pdf": null,
-            "external": null
-          },
-          "description": "Team & project description, diagrams, documentation, and strategy.",
-          "upcoming": true
+            "external": "https://example.com/project-guidelines-phase-1"
+          }
         },
         {
           "id": "phase-2",
-          "title": "Project Phase 2 — Implementation",
-          "release": "2025-11-23",
-          "deadline": "2025-12-28",
+          "title": "Phase 2 — Design",
+          "date": "2025-11-01",
+          "deadline": "2025-11-15",
           "assets": {
             "pdf": null,
-            "external": null
-          },
-          "description": "Implementation of core features.",
-          "upcoming": true
-        },
-        {
-          "id": "phase-3",
-          "title": "Project Phase 3 — Testing & Extras",
-          "release": "2026-01-09",
-          "deadline": "2026-01-21",
-          "assets": {
-            "pdf": null,
-            "external": null
-          },
-          "description": "Testing; bonus features; portability; in-class presentations.",
-          "upcoming": true
+            "external": "https://example.com/project-guidelines-phase-2"
+          }
         }
       ]
     }
   ],
   "timeline": [
     {
+      "date": "2025-09-20",
+      "label": "Lecture 1: Overview",
+      "link": "/slides/00-course-intro.html",
+      "category": "lecture"
+    },
+    {
+      "date": "2025-09-28",
+      "label": "HW1 Released",
+      "link": "/hw/hw1.pdf",
+      "category": "exercise"
+    },
+    {
+      "date": "2025-10-04",
+      "label": "Workshop: Git",
+      "link": "/workshops/git-fundamentals.html",
+      "category": "workshop"
+    },
+    {
       "date": "2025-10-11",
-      "label": "Lecture: Java Introduction",
-      "link": "slides/lec-01.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-10-13",
-      "label": "Lecture: Java Basics",
-      "link": "slides/lec-02.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-10-13",
-      "label": "Homework 0 Released",
-      "link": "hw/hw0.pdf",
-      "category": "exercise"
-    },
-    {
-      "date": "2025-10-18",
-      "label": "Lecture: OOP Introduction",
-      "link": "slides/lec-03.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-10-20",
-      "label": "Lecture: OOP Introduction II",
-      "link": "slides/lec-04.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-10-24",
-      "label": "Homework 0 Deadline",
-      "link": "hw/hw0.pdf",
-      "category": "exercise"
-    },
-    {
-      "date": "2025-10-25",
-      "label": "Lecture: OOP in Java I",
-      "link": "slides/lec-05.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-10-27",
-      "label": "Lecture: OOP in Java II",
-      "link": "slides/lec-06.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-10-27",
-      "label": "Homework 1 Released",
-      "link": "hw/hw1.pdf",
-      "category": "exercise"
-    },
-    {
-      "date": "2025-10-28",
-      "label": "Make-up (start)",
-      "category": "makeup"
-    },
-    {
-      "date": "2025-10-29",
-      "label": "Make-up (end)",
-      "category": "makeup"
-    },
-    {
-      "date": "2025-11-01",
-      "label": "Lecture: Inheritance",
-      "link": "slides/lec-07.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-11-01",
-      "label": "Project Phase 0 — Teaming & Preferences — Release",
-      "link": null,
+      "label": "Project Phase 1 Start",
+      "link": "https://example.com/project-guidelines-phase-1",
       "category": "project"
-    },
-    {
-      "date": "2025-11-03",
-      "label": "Lecture: Polymorphism",
-      "link": "slides/lec-08.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-11-03",
-      "label": "Project Phase 0 — Teaming & Preferences — Deadline",
-      "link": null,
-      "category": "project"
-    },
-    {
-      "date": "2025-11-03",
-      "label": "Project Phase 1 — Requirements & Planning — Release",
-      "link": null,
-      "category": "project"
-    },
-    {
-      "date": "2025-11-07",
-      "label": "Homework 1 Deadline",
-      "link": "hw/hw1.pdf",
-      "category": "exercise"
-    },
-    {
-      "date": "2025-11-08",
-      "label": "Lecture: Interface",
-      "link": "slides/lec-09.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-11-10",
-      "label": "Lecture: Software Testing",
-      "link": "slides/lec-10.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-11-14",
-      "label": "Homework 1 Late Deadline",
-      "link": "hw/hw1.pdf",
-      "category": "exercise"
-    },
-    {
-      "date": "2025-11-15",
-      "label": "Lecture: Design Patterns",
-      "link": "slides/lec-11.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-11-16",
-      "label": "Project Phase 1 — Requirements & Planning — Deadline",
-      "link": null,
-      "category": "project"
-    },
-    {
-      "date": "2025-11-17",
-      "label": "Lecture: Refactoring",
-      "link": "slides/lec-12.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-11-17",
-      "label": "Homework 2 Released",
-      "link": "hw/hw2.pdf",
-      "category": "exercise"
-    },
-    {
-      "date": "2025-11-18",
-      "label": "Project Phase 1 — Requirements & Planning — Review",
-      "link": null,
-      "category": "project"
-    },
-    {
-      "date": "2025-11-22",
-      "label": "Lecture: Error Handling & Exception Management",
-      "link": "slides/lec-13.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-11-22",
-      "label": "Project Phase 1 — Requirements & Planning — Final Deadline",
-      "link": null,
-      "category": "project"
-    },
-    {
-      "date": "2025-11-23",
-      "label": "Project Phase 2 — Implementation — Release",
-      "link": null,
-      "category": "project"
-    },
-    {
-      "date": "2025-11-23",
-      "label": "Project Phase 2 — Release",
-      "category": "project"
-    },
-    {
-      "date": "2025-11-24",
-      "label": "Holiday",
-      "category": "holiday"
-    },
-    {
-      "date": "2025-11-28",
-      "label": "Homework 2 Deadline",
-      "link": "hw/hw2.pdf",
-      "category": "exercise"
-    },
-    {
-      "date": "2025-11-29",
-      "label": "Lecture: Review",
-      "link": "slides/lec-14.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-12-01",
-      "label": "Lecture: Mid-term Exam",
-      "link": null,
-      "category": "lecture"
-    },
-    {
-      "date": "2025-12-01",
-      "label": "Mid-term Exam",
-      "category": "exam"
-    },
-    {
-      "date": "2025-12-06",
-      "label": "Lecture: Generics",
-      "link": "slides/lec-16.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-12-08",
-      "label": "Lecture: Containers",
-      "link": "slides/lec-17.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-12-13",
-      "label": "Lecture: File & Streams",
-      "link": "slides/lec-18.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-12-15",
-      "label": "Lecture: Network",
-      "link": "slides/lec-19.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-12-15",
-      "label": "Homework 3 Released",
-      "link": "hw/hw3.pdf",
-      "category": "exercise"
-    },
-    {
-      "date": "2025-12-20",
-      "label": "Lecture: Concurrency",
-      "link": "slides/lec-20.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-12-22",
-      "label": "Lecture: Reflection",
-      "link": "slides/lec-21.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-12-26",
-      "label": "Homework 3 Deadline",
-      "link": "hw/hw3.pdf",
-      "category": "exercise"
-    },
-    {
-      "date": "2025-12-27",
-      "label": "Lecture: Advanced Java",
-      "link": "slides/lec-22.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-12-28",
-      "label": "Project Phase 2 — Implementation — Deadline",
-      "link": null,
-      "category": "project"
-    },
-    {
-      "date": "2025-12-29",
-      "label": "Lecture: Course Review & Project Review",
-      "link": "slides/lec-23.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-12-29",
-      "label": "Homework 4 Released",
-      "link": "hw/hw4.pdf",
-      "category": "exercise"
-    },
-    {
-      "date": "2026-01-05",
-      "label": "Lecture: Advanced Programming with Python",
-      "link": "slides/lec-24.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2026-01-09",
-      "label": "Homework 4 Deadline",
-      "link": "hw/hw4.pdf",
-      "category": "exercise"
-    },
-    {
-      "date": "2026-01-09",
-      "label": "Project Phase 3 — Testing & Extras — Release",
-      "link": null,
-      "category": "project"
-    },
-    {
-      "date": "2026-01-10",
-      "label": "Lecture: Project Review — What did you learn in AP? (I)",
-      "link": "slides/lec-25.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2026-01-12",
-      "label": "Lecture: Project Review — What did you learn in AP? (II)",
-      "link": "slides/lec-26.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2026-01-21",
-      "label": "Project Phase 3 — Testing & Extras — Deadline",
-      "link": null,
-      "category": "project"
-    },
-    {
-      "date": "2026-01-21",
-      "label": "Project Phase 3 — Final grading deadline",
-      "category": "project"
-    },
-    {
-      "date": "2026-01-26",
-      "label": "Final Exam 15:00",
-      "category": "exam"
-    }
-  ],
-  "workshops": [
-    {
-      "id": "git-basics-ws",
-      "week": 1,
-      "date": "2025-10-14",
-      "title": "Git Fundamentals Workshop",
-      "tags": [
-        "git",
-        "workshop"
-      ],
-      "assets": {
-        "html": "workshops/git-fundamentals.html",
-        "pdf": "workshops/git-fundamentals.pdf",
-        "external": null
-      },
-      "description": "Repositories, commits, branching, merging, PRs, workflows.",
-      "location": "V-Class",
-      "upcoming": false
-    },
-    {
-      "id": "linux-basics-ws",
-      "week": 1,
-      "date": "2025-10-14",
-      "title": "Linux Fundamentals Workshop",
-      "tags": [
-        "linux",
-        "workshop"
-      ],
-      "assets": {
-        "html": "workshops/linux-fundamentals.html",
-        "pdf": "workshops/linux-fundamentals.pdf",
-        "external": null
-      },
-      "description": "Terminal basics; permissions; users & processes; package management; shell scripting.",
-      "location": "V-Class",
-      "upcoming": false
     }
   ],
   "policies": {
@@ -1273,3 +456,4 @@
     ]
   }
 }
+
