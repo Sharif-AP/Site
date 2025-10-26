@@ -108,18 +108,19 @@ export default function TimelinePage() {
                             </div>
                           </div>
                           <h3 className="font-semibold text-lg mb-2">{event.label}</h3>
-                          {event.link && (
-                            <a
-                              href={event.link}
-                              target={event.link.startsWith("http") ? "_blank" : undefined}
-                              rel={event.link.startsWith("http") ? "noopener noreferrer" : undefined}
-                            >
-                              <Button variant="outline" size="sm">
-                                <ExternalLink className="h-3.5 w-3.5 mr-2" />
-                                View Details
-                              </Button>
-                            </a>
-                          )}
+                          {event.link ? (
+                              <a
+                                  href={event.link}
+                                  target={event.link?.startsWith("http") ? "_blank" : undefined}
+                                  rel={event.link?.startsWith("http") ? "noopener noreferrer" : undefined}
+                              >
+                                <Button variant="outline" size="sm">
+                                  <ExternalLink className="h-3.5 w-3.5 mr-2" />
+                                  View Details
+                                </Button>
+                              </a>
+                          ) : null}
+
                         </CardContent>
                       </Card>
                     </div>
