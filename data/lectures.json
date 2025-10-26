@@ -39,10 +39,7 @@
       "week": 1,
       "date": "2025-09-20",
       "title": "Course Overview & Policies",
-      "tags": [
-        "intro",
-        "course"
-      ],
+      "tags": ["intro","course"],
       "assets": {
         "html": "/slides/00-course-intro.html",
         "pdf": "slides/ap-intro.pdf",
@@ -56,10 +53,7 @@
       "week": 2,
       "date": "2025-09-27",
       "title": "Java Basics I",
-      "tags": [
-        "java",
-        "basics"
-      ],
+      "tags": ["java","basics"],
       "assets": {
         "html": "slides/java-basics-1.html",
         "pdf": "slides/java-basics-1.pdf",
@@ -67,6 +61,123 @@
         "external": null
       },
       "description": "JVM, types, control flow, tooling."
+    },
+    {
+      "id": "lec-01-java-intro",
+      "week": 1,
+      "date": "2025-10-11",
+      "title": "Java Introduction",
+      "tags": ["java","intro"],
+      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "description": "History & programming, What is Java? (JVM, versions, usage), Why Java? (uses, frameworks), Hello World!"
+    },
+    {
+      "id": "lec-02-java-basics",
+      "week": 1,
+      "date": "2025-10-13",
+      "title": "Java Basics",
+      "tags": ["java","basics"],
+      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "description": "Primitive data types (variables), methods, control, strings, arrays."
+    },
+    {
+      "id": "lec-03-oop-intro",
+      "week": 2,
+      "date": "2025-10-18",
+      "title": "OOP Introduction",
+      "tags": ["oop","intro"],
+      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "description": "History (Machine→Assembly→Structured→Procedural→OOP), object, properties/attributes, procedures/methods, class."
+    },
+    {
+      "id": "lec-04-oop-intro-2",
+      "week": 2,
+      "date": "2025-10-20",
+      "title": "OOP Introduction (Design & Thinking)",
+      "tags": ["oop","design"],
+      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "description": "Review, OOP design & thinking, encapsulation, interface, class, package, access modifiers."
+    },
+    {
+      "id": "lec-05-oop-in-java-1",
+      "week": 3,
+      "date": "2025-10-25",
+      "title": "OOP in Java (Memory & Lifecycle)",
+      "tags": ["oop","java"],
+      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "description": "Creating classes in Java; memory management (objects in memory); initialization/loading; destruction/GC."
+    },
+    {
+      "id": "lec-06-oop-in-java-2",
+      "week": 3,
+      "date": "2025-10-27",
+      "title": "OOP in Java (Params, Constructors, UML Intro)",
+      "tags": ["oop","java","uml"],
+      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "description": "Parameter passing (by value/reference), constructor, this, static, package, intro to UML."
+    },
+    {
+      "id": "lec-07-inheritance",
+      "week": 4,
+      "date": "2025-11-01",
+      "title": "Inheritance",
+      "tags": ["oop","inheritance"],
+      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "description": "Concept; protected, abstract, super; multiple inheritance in other languages."
+    },
+    {
+      "id": "lec-08-polymorphism",
+      "week": 4,
+      "date": "2025-11-03",
+      "title": "Polymorphism",
+      "tags": ["oop","polymorphism"],
+      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "description": "Concept, implementing via inheritance, final properties."
+    },
+    {
+      "id": "lec-09-interface",
+      "week": 5,
+      "date": "2025-11-08",
+      "title": "Interfaces",
+      "tags": ["oop","interface"],
+      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "description": "Concept; multiple interfaces."
+    },
+    {
+      "id": "lec-10-testing",
+      "week": 5,
+      "date": "2025-11-10",
+      "title": "Software Testing",
+      "tags": ["testing","junit"],
+      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "description": "QA, unit tests, JUnit, throwing exceptions, mocking."
+    },
+    {
+      "id": "lec-11-design-patterns",
+      "week": 6,
+      "date": "2025-11-15",
+      "title": "Design Patterns",
+      "tags": ["design-patterns","gof"],
+      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "description": "Concepts, GoF patterns, other patterns."
+    },
+    {
+      "id": "lec-12-refactoring",
+      "week": 6,
+      "date": "2025-11-17",
+      "title": "Refactoring",
+      "tags": ["refactoring","clean-code"],
+      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "description": "Refactoring concepts, Clean Code, code smells, refactoring patterns."
+    },
+    {
+      "id": "lec-13-error-handling",
+      "week": 7,
+      "date": "2025-11-22",
+      "title": "Error Handling & Exception Management",
+      "tags": ["exceptions","error-handling","java"],
+      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "description": "Legacy error handling; Java exception model; pros/cons; finally; runtime exceptions."
     }
   ],
   "exercises": [
@@ -75,47 +186,72 @@
       "week": 2,
       "date": "2025-09-28",
       "title": "Homework 1",
-      "tags": [
-        "homework"
-      ],
-      "assets": {
-        "pdf": "slides/hw1.pdf",
-        "external": null
-      },
+      "tags": ["homework"],
+      "assets": { "pdf": "slides/hw1.pdf", "external": null },
       "description": "Basic Java tasks.",
       "deadline": "2025-10-05"
+    },
+    {
+      "id": "hw0",
+      "week": 1,
+      "date": "2025-10-13",
+      "title": "Homework 0 — Java Intro & Basics",
+      "tags": ["homework","java"],
+      "assets": { "pdf": null, "external": null },
+      "description": "Covers Java Introduction and Java Basics.",
+      "deadline": "2025-10-24"
+    },
+    {
+      "id": "hw1-oop",
+      "week": 3,
+      "date": "2025-10-27",
+      "title": "Homework 1 — OOP Fundamentals",
+      "tags": ["homework","oop"],
+      "assets": { "pdf": null, "external": null },
+      "description": "OOP Introduction & OOP in Java.",
+      "deadline": "2025-11-07"
+    },
+    {
+      "id": "hw2-refactor",
+      "week": 6,
+      "date": "2025-11-17",
+      "title": "Homework 2 — Inheritance to Refactoring",
+      "tags": ["homework","oop","refactoring"],
+      "assets": { "pdf": null, "external": null },
+      "description": "Inheritance, Polymorphism, Interface, Testing, Design Patterns, Refactoring.",
+      "deadline": null
     }
   ],
   "workshops": [
-      {
-        "id": "git-basics-ws",
-        "week": 1,
-        "date": "2025-10-14",
-        "title": "Git Fundamentals Workshop",
-        "tags": ["git", "workshop"],
-        "assets": {
-          "html": "workshops/git-fundamentals.html",
-          "pdf": "workshops/git-fundamentals.pdf",
-          "external": null
-        },
-        "description": "Introduction to Git concepts: repositories, commits, branches, merges, and collaborative workflows on GitHub.",
-        "location": "V-Class"
+    {
+      "id": "git-basics-ws",
+      "week": 1,
+      "date": "2025-10-14",
+      "title": "Git Fundamentals Workshop",
+      "tags": ["git","workshop"],
+      "assets": {
+        "html": "workshops/git-fundamentals.html",
+        "pdf": "workshops/git-fundamentals.pdf",
+        "external": null
       },
-      {
-        "id": "linux-basics-ws",
-        "week": 1,
-        "date": "2025-10-14",
-        "title": "Linux Fundamentals Workshop",
-        "tags": ["linux", "workshop"],
-        "assets": {
-          "html": "workshops/linux-fundamentals.html",
-          "pdf": "workshops/linux-fundamentals.pdf",
-          "external": null
-        },
-        "description": "Hands-on introduction to Linux: Terminal basics, permissions, users & processes, package management, and shell scripting.",
-        "location": "V-Class"
-      }
-    ],
+      "description": "Introduction to Git concepts: repositories, commits, branches, merges, and collaborative workflows on GitHub.",
+      "location": "V-Class"
+    },
+    {
+      "id": "linux-basics-ws",
+      "week": 1,
+      "date": "2025-10-14",
+      "title": "Linux Fundamentals Workshop",
+      "tags": ["linux","workshop"],
+      "assets": {
+        "html": "workshops/linux-fundamentals.html",
+        "pdf": "workshops/linux-fundamentals.pdf",
+        "external": null
+      },
+      "description": "Hands-on introduction to Linux: Terminal basics, permissions, users & processes, package management, and shell scripting.",
+      "location": "V-Class"
+    }
+  ],
   "projects": [
     {
       "id": "proj-01",
@@ -123,24 +259,25 @@
       "description": "A multi-phase course project.",
       "phases": [
         {
+          "id": "phase-0",
+          "title": "Phase 0 — Teaming & Topic Preference",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": { "pdf": null, "external": null }
+        },
+        {
           "id": "phase-1",
           "title": "Phase 1 — Requirements",
-          "date": "2025-10-11",
-          "deadline": "2025-10-25",
-          "assets": {
-            "pdf": null,
-            "external": "https://example.com/project-guidelines-phase-1"
-          }
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": null, "external": "https://example.com/project-guidelines-phase-1" }
         },
         {
           "id": "phase-2",
           "title": "Phase 2 — Design",
           "date": "2025-11-01",
           "deadline": "2025-11-15",
-          "assets": {
-            "pdf": null,
-            "external": "https://example.com/project-guidelines-phase-2"
-          }
+          "assets": { "pdf": null, "external": "https://example.com/project-guidelines-phase-2" }
         }
       ]
     }
@@ -166,9 +303,159 @@
     },
     {
       "date": "2025-10-11",
+      "label": "Lecture 1: Java Introduction",
+      "link": null,
+      "category": "lecture"
+    },
+    {
+      "date": "2025-10-13",
+      "label": "Lecture 2: Java Basics",
+      "link": null,
+      "category": "lecture"
+    },
+    {
+      "date": "2025-10-13",
+      "label": "HW0 Released",
+      "link": null,
+      "category": "exercise"
+    },
+    {
+      "date": "2025-10-18",
+      "label": "Lecture 3: OOP Introduction",
+      "link": null,
+      "category": "lecture"
+    },
+    {
+      "date": "2025-10-20",
+      "label": "Lecture 4: OOP Design & Thinking",
+      "link": null,
+      "category": "lecture"
+    },
+    {
+      "date": "2025-10-24",
+      "label": "HW0 Deadline",
+      "link": null,
+      "category": "exercise"
+    },
+    {
+      "date": "2025-10-25",
+      "label": "Lecture 5: OOP in Java (Memory)",
+      "link": null,
+      "category": "lecture"
+    },
+    {
+      "date": "2025-10-27",
+      "label": "Lecture 6: OOP in Java (UML Intro)",
+      "link": null,
+      "category": "lecture"
+    },
+    {
+      "date": "2025-10-27",
+      "label": "HW1 (OOP) Released",
+      "link": null,
+      "category": "exercise"
+    },
+    {
+      "date": "2025-10-28",
+      "label": "Make-up Window Starts",
+      "link": null,
+      "category": "notice"
+    },
+    {
+      "date": "2025-10-29",
+      "label": "Make-up Window Ends",
+      "link": null,
+      "category": "notice"
+    },
+    {
+      "date": "2025-11-01",
+      "label": "Lecture 7: Inheritance",
+      "link": null,
+      "category": "lecture"
+    },
+    {
+      "date": "2025-11-01",
+      "label": "Project Phase 0 Released",
+      "link": null,
+      "category": "project"
+    },
+    {
+      "date": "2025-11-03",
+      "label": "Lecture 8: Polymorphism",
+      "link": null,
+      "category": "lecture"
+    },
+    {
+      "date": "2025-11-03",
+      "label": "Project Phase 0 Deadline",
+      "link": null,
+      "category": "project"
+    },
+    {
+      "date": "2025-11-03",
       "label": "Project Phase 1 Start",
       "link": "https://example.com/project-guidelines-phase-1",
       "category": "project"
+    },
+    {
+      "date": "2025-11-07",
+      "label": "HW1 (OOP) Deadline",
+      "link": null,
+      "category": "exercise"
+    },
+    {
+      "date": "2025-11-08",
+      "label": "Lecture 9: Interfaces",
+      "link": null,
+      "category": "lecture"
+    },
+    {
+      "date": "2025-11-10",
+      "label": "Lecture 10: Software Testing",
+      "link": null,
+      "category": "lecture"
+    },
+    {
+      "date": "2025-11-14",
+      "label": "HW1 (OOP) Final Deadline",
+      "link": null,
+      "category": "exercise"
+    },
+    {
+      "date": "2025-11-15",
+      "label": "Lecture 11: Design Patterns",
+      "link": null,
+      "category": "lecture"
+    },
+    {
+      "date": "2025-11-16",
+      "label": "Project Phase 1 Deadline",
+      "link": null,
+      "category": "project"
+    },
+    {
+      "date": "2025-11-17",
+      "label": "Lecture 12: Refactoring",
+      "link": null,
+      "category": "lecture"
+    },
+    {
+      "date": "2025-11-17",
+      "label": "HW2 Released",
+      "link": null,
+      "category": "exercise"
+    },
+    {
+      "date": "2025-11-18",
+      "label": "Project Phase 1 Review",
+      "link": null,
+      "category": "project"
+    },
+    {
+      "date": "2025-11-22",
+      "label": "Lecture 13: Error Handling & Exceptions",
+      "link": null,
+      "category": "lecture"
     }
   ],
   "policies": {
@@ -190,270 +477,157 @@
         "role": "technical",
         "homepage": "https://masihii.ir",
         "photo": "https://captcha.sharif.ir/static/img/team/HosseinMasihi.jpg",
-        "areas": [
-          "exercises",
-          "workshops",
-          "projects"
-        ],
-        "links": [
-          {
-            "label": "GitHub",
-            "url": "https://github.com/hosseinMsh"
-          }
-        ]
+        "areas": ["exercises","workshops","projects"],
+        "links": [{ "label": "GitHub", "url": "https://github.com/hosseinMsh" }]
       },
       {
         "name": "Sohaib Sadeqi",
         "email": "sohaibsadeghy@gmail.com",
         "role": "Head TA",
-        "areas": [
-          "exercises",
-          "workshops",
-          "projects"
-        ],
-        "links": [
-          {
-            "label": "GitHub",
-            "url": "https://github.com/sohaib-sadeqi"
-          }
-        ]
+        "areas": ["exercises","workshops","projects"],
+        "links": [{ "label": "GitHub", "url": "https://github.com/sohaib-sadeqi" }]
       },
       {
         "name": "Arash Nazari Manesh",
         "email": "arashnm797@gmail.com",
         "role": "Head of Project",
-        "areas": [
-          "projects"
-        ],
+        "areas": ["projects"],
         "links": [
-          {
-            "label": "LinkedIn",
-            "url": "https://www.linkedin.com/in/mr-arashnm"
-          },
-          {
-            "label": "GitHub",
-            "url": "https://github.com/mr-arashnm"
-          }
+          { "label": "LinkedIn", "url": "https://www.linkedin.com/in/mr-arashnm" },
+          { "label": "GitHub", "url": "https://github.com/mr-arashnm" }
         ]
       },
       {
         "name": "Aeen Karimian",
         "email": "aeenkarimian@gmail.com",
         "role": "Head of Project",
-        "areas": [
-          "projects"
-        ],
+        "areas": ["projects"],
         "links": [
-          {
-            "label": "LinkedIn",
-            "url": "https://www.linkedin.com/in/aeen-karimian-046a13217/"
-          },
-          {
-            "label": "GitHub",
-            "url": "https://github.com/A-K-6"
-          }
+          { "label": "LinkedIn", "url": "https://www.linkedin.com/in/aeen-karimian-046a13217/" },
+          { "label": "GitHub", "url": "https://github.com/A-K-6" }
         ]
       },
       {
         "name": "Seyed Reza Moallem Pour",
         "email": "srmpoor47@gmail.com",
         "role": "Project Manager",
-        "areas": [
-          "projects"
-        ],
-        "links": [
-          {
-            "label": "GitHub",
-            "url": "https://github.com/srmp47"
-          }
-        ]
+        "areas": ["projects"],
+        "links": [{ "label": "GitHub", "url": "https://github.com/srmp47" }]
       },
       {
         "name": "Hossein Karimi",
         "email": "hosein.hka@gmail.com",
         "role": "Project Manager",
-        "areas": [
-          "projects"
-        ],
+        "areas": ["projects"],
         "links": []
       },
       {
         "name": "Mehdi Torabi",
         "email": "M.tm2013@yahoo.com",
         "role": "Project Manager",
-        "areas": [
-          "projects"
-        ],
+        "areas": ["projects"],
         "links": []
       },
       {
         "name": "Mohammad Hossein Surani",
         "email": "suranimohammad@gmail.com",
         "role": "Project Manager",
-        "areas": [
-          "projects"
-        ],
-        "links": [
-          {
-            "label": "GitHub",
-            "url": "https://github.com/SurenNTKY"
-          }
-        ]
+        "areas": ["projects"],
+        "links": [{ "label": "GitHub", "url": "https://github.com/SurenNTKY" }]
       },
       {
         "name": "Ramtin Barzkar",
         "email": "ramtin.barzkar.3@gmail.com",
         "role": "Project Manager",
-        "areas": [
-          "projects"
-        ],
+        "areas": ["projects"],
         "links": []
       },
       {
         "name": "Mohammad Matin Hazrati",
         "email": "hazratimohammadmatin@gmail.com",
         "role": "Head of Exercises & Workshops",
-        "areas": [
-          "exercises",
-          "workshops"
-        ],
+        "areas": ["exercises","workshops"],
         "links": [
-          {
-            "label": "LinkedIn",
-            "url": "https://www.linkedin.com/in/mohammadmatin-h-7b4209216"
-          },
-          {
-            "label": "GitHub",
-            "url": "https://github.com/John-6670"
-          }
+          { "label": "LinkedIn", "url": "https://www.linkedin.com/in/mohammadmatin-h-7b4209216" },
+          { "label": "GitHub", "url": "https://github.com/John-6670" }
         ]
       },
       {
         "name": "Danial Darroudy",
         "email": "danialdarroudy1383@gmail.com",
         "role": "Exercises & Workshops",
-        "areas": [
-          "exercises",
-          "workshops"
-        ],
-        "links": [
-          {
-            "label": "GitHub",
-            "url": "https://github.com/DanialDarroudy"
-          }
-        ]
+        "areas": ["exercises","workshops"],
+        "links": [{ "label": "GitHub", "url": "https://github.com/DanialDarroudy" }]
       },
       {
         "name": "Zahra Masoumi",
         "email": "zahraamasoumi@gmail.com",
         "role": "Exercises & Workshops",
-        "areas": [
-          "exercises",
-          "workshops"
-        ],
+        "areas": ["exercises","workshops"],
         "links": [
-          {
-            "label": "LinkedIn",
-            "url": "https://www.linkedin.com/in/zahra-masoumi-187448232"
-          },
-          {
-            "label": "GitHub",
-            "url": "https://github.com/asAlwaysZahra"
-          }
+          { "label": "LinkedIn", "url": "https://www.linkedin.com/in/zahra-masoumi-187448232" },
+          { "label": "GitHub", "url": "https://github.com/asAlwaysZahra" }
         ]
       },
       {
         "name": "Hossein Paymard",
         "email": "paymard.pro@gmail.com",
         "role": "Exercises",
-        "areas": [
-          "exercises"
-        ],
+        "areas": ["exercises"],
         "links": [
-          {
-            "label": "LinkedIn",
-            "url": "https://www.linkedin.com/in/hossein-paymard-2427b9389"
-          },
-          {
-            "label": "GitHub",
-            "url": "https://github.com/paymard-pro"
-          }
+          { "label": "LinkedIn", "url": "https://www.linkedin.com/in/hossein-paymard-2427b9389" },
+          { "label": "GitHub", "url": "https://github.com/paymard-pro" }
         ]
       },
       {
         "name": "Hamid Reza Afshari",
         "email": "h.r.afshari84@gmail.com",
         "role": "Exercises",
-        "areas": [
-          "exercises"
-        ],
+        "areas": ["exercises"],
         "links": []
       },
       {
         "name": "Faezeh Alinezhad",
         "email": "f.alinejad1251@gmail.com",
         "role": "Exercises",
-        "areas": [
-          "exercises"
-        ],
+        "areas": ["exercises"],
         "links": []
       },
       {
         "name": "Elham Gholami",
         "email": "el1300.gh@gmail.com",
         "role": "Exercises",
-        "areas": [
-          "exercises"
-        ],
+        "areas": ["exercises"],
         "links": [
-          {
-            "label": "LinkedIn",
-            "url": "https://www.linkedin.com/in/elham-gholami-9185ab223/"
-          }
+          { "label": "LinkedIn", "url": "https://www.linkedin.com/in/elham-gholami-9185ab223/" }
         ]
       },
       {
         "name": "Roham Ghasemi",
         "email": "roham8406@gmail.com",
         "role": "Exercises",
-        "areas": [
-          "exercises"
-        ],
+        "areas": ["exercises"],
         "links": [
-          {
-            "label": "LinkedIn",
-            "url": "https://www.linkedin.com/in/roham-ghasemi/"
-          },
-          {
-            "label": "GitHub",
-            "url": "https://github.com/Roham8406"
-          }
+          { "label": "LinkedIn", "url": "https://www.linkedin.com/in/roham-ghasemi/" },
+          { "label": "GitHub", "url": "https://github.com/Roham8406" }
         ]
       },
       {
         "name": "Mohammad Mehdi Abedini",
         "email": "m.abedini30@yahoo.com",
         "role": "Exams",
-        "areas": [
-          "exams"
-        ],
+        "areas": ["exams"],
         "links": []
       },
       {
         "name": "Yasaman Kavianpour",
         "email": "Jasmin.kvp@gmail.com",
         "role": "Exams",
-        "areas": [
-          "exams"
-        ],
+        "areas": ["exams"],
         "links": [
-          {
-            "label": "GitHub",
-            "url": "https://github.com/jknewworld"
-          }
+          { "label": "GitHub", "url": "https://github.com/jknewworld" }
         ]
       }
     ]
   }
 }
-
