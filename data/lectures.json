@@ -86,25 +86,37 @@
       "deadline": "2025-10-05"
     }
   ],
-  "workshops": [
-    {
-      "id": "git-basics-ws",
-      "week": 3,
-      "date": "2025-10-04",
-      "title": "Git Fundamentals Workshop",
-      "tags": [
-        "git",
-        "workshop"
-      ],
-      "assets": {
-        "html": "workshops/git-fundamentals.html",
-        "pdf": "workshops/git-fundamentals.pdf",
-        "external": null
+  "workshops":
+    [
+      {
+        "id": "git-basics-ws",
+        "week": 1,
+        "date": "2025-10-14",
+        "title": "Git Fundamentals Workshop",
+        "tags": ["git", "workshop"],
+        "assets": {
+          "html": "workshops/git-fundamentals.html",
+          "pdf": "workshops/git-fundamentals.pdf",
+          "external": null
+        },
+        "description": "Introduction to Git concepts: repositories, commits, branches, merges, and collaborative workflows on GitHub.",
+        "location": "V-Class"
       },
-      "description": "Branching, merging, PRs, workflows.",
-      "location": "Lab 1"
-    }
-  ],
+      {
+        "id": "linux-basics-ws",
+        "week": 1,
+        "date": "2025-10-14",
+        "title": "Linux Fundamentals Workshop",
+        "tags": ["linux", "workshop"],
+        "assets": {
+          "html": "workshops/linux-fundamentals.html",
+          "pdf": "workshops/linux-fundamentals.pdf",
+          "external": null
+        },
+        "description": "Hands-on introduction to Linux: Terminal basics, permissions, users & processes, package management, and shell scripting.",
+        "location": "V-Class"
+      }
+    ],
   "projects": [
     {
       "id": "proj-01",
