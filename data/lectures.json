@@ -158,7 +158,12 @@
       "date": "2025-11-15",
       "title": "Design Patterns",
       "tags": ["design-patterns","gof"],
-      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "assets": {
+        "html": "https://github.com/Sharif-AP/Site/blob/master/static/10-design-patterns.html",
+        "pdf": "https://github.com/Sharif-AP/Site/blob/master/static/10-design-patterns.pdf",
+        "pptx": null,
+        "external": null
+      },
       "description": "Concepts, GoF patterns, other patterns."
     },
     {
@@ -167,7 +172,12 @@
       "date": "2025-11-17",
       "title": "Refactoring",
       "tags": ["refactoring","clean-code"],
-      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "assets": {
+        "html": "https://github.com/Sharif-AP/Site/blob/master/static/11-refactoring.html",
+        "pdf": "https://github.com/Sharif-AP/Site/blob/master/static/11-refactoring.pdf",
+        "pptx": null,
+        "external": null
+      },
       "description": "Refactoring concepts, Clean Code, code smells, refactoring patterns."
     },
     {
