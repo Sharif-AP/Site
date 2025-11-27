@@ -637,7 +637,7 @@
           "workshops",
           "projects"
         ],
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/SoheibSadeghy.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/SoheibSadeghy.jpg",
         "links": [
           {
             "label": "LinkedIn",
@@ -656,7 +656,7 @@
         "areas": [
           "projects"
         ],
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/ArashNazariManesh.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/ArashNazariManesh.jpg",
         "links": [
           {
             "label": "LinkedIn",
@@ -672,7 +672,7 @@
         "name": "Aeen Karimian",
         "email": "aeenkarimian@gmail.com",
         "role": "Head of Project",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/AeenKarimian.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/AeenKarimian.jpg",
         "areas": [
           "projects"
         ],
@@ -691,7 +691,7 @@
         "name": "Seyed Reza Moallem Pour",
         "email": "srmpoor47@gmail.com",
         "role": "Project Manager",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/SeyedRezaMoalemPor.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/SeyedRezaMoalemPor.jpg",
         "areas": [
           "projects"
         ],
@@ -706,7 +706,7 @@
         "name": "Hossein Karimi",
         "email": "hosein.hka@gmail.com",
         "role": "Project Manager",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/default.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/default.jpg",
         "areas": [
           "projects"
         ],
@@ -716,7 +716,7 @@
         "name": "Mehdi Torabi",
         "email": "M.tm2013@yahoo.com",
         "role": "Project Manager",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/default.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/default.jpg",
         "areas": [
           "projects"
         ],
@@ -726,7 +726,7 @@
         "name": "Mohammad Hossein Surani",
         "email": "suranimohammad@gmail.com",
         "role": "Project Manager",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/MohamadHoseinSurani.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/MohamadHoseinSurani.jpg",
         "areas": [
           "projects"
         ],
@@ -741,7 +741,7 @@
         "name": "Ramtin Barzkar",
         "email": "ramtin.barzkar.3@gmail.com",
         "role": "Project Manager",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/default.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/default.jpg",
         "areas": [
           "projects"
         ],
@@ -751,7 +751,7 @@
         "name": "Mohammad Matin Hazrati",
         "email": "hazratimohammadmatin@gmail.com",
         "role": "Head of Exercises & Workshops",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/MohamadMatinHazrati.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/MohamadMatinHazrati.jpg",
         "areas": [
           "exercises",
           "workshops"
@@ -771,7 +771,7 @@
         "name": "Danial Darroudy",
         "email": "danialdarroudy1383@gmail.com",
         "role": "Exercises & Workshops",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/DanialDorodi.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/DanialDorodi.jpeg",
         "areas": [
           "exercises",
           "workshops"
@@ -787,7 +787,7 @@
         "name": "Zahra Masoumi",
         "email": "zahraamasoumi@gmail.com",
         "role": "Exercises & Workshops",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/ZahraMasomi.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/ZahraMasomi.jpg",
         "areas": [
           "exercises",
           "workshops"
@@ -807,7 +807,7 @@
         "name": "Hossein Paymard",
         "email": "paymard.pro@gmail.com",
         "role": "Exercises",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/HoseinPaymard.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/HoseinPaymard.jpg",
         "areas": [
           "exercises"
         ],
@@ -826,7 +826,7 @@
         "name": "Hamid Reza Afshari",
         "email": "h.r.afshari84@gmail.com",
         "role": "Exercises",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/default.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/default.jpg",
         "areas": [
           "exercises"
         ],
@@ -836,7 +836,7 @@
         "name": "Faezeh Alinezhad",
         "email": "f.alinejad1251@gmail.com",
         "role": "Exercises",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/default.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/default.jpg",
         "areas": [
           "exercises"
         ],
@@ -846,7 +846,7 @@
         "name": "Elham Gholami",
         "email": "el1300.gh@gmail.com",
         "role": "Exercises",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/ElhamGholami.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/ElhamGholami.jpg",
         "areas": [
           "exercises"
         ],
@@ -861,7 +861,7 @@
         "name": "Roham Ghasemi",
         "email": "roham8406@gmail.com",
         "role": "Exercises",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/RohamGhasemi.jpeg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/RohamGhasemi.jpeg",
         "areas": [
           "exercises"
         ],
@@ -880,7 +880,7 @@
         "name": "Mohammad Mehdi Abedini",
         "email": "m.abedini30@yahoo.com",
         "role": "Exams",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/default.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/default.jpg",
         "areas": [
           "exams"
         ],
@@ -890,7 +890,7 @@
         "name": "Yasaman Kavianpour",
         "email": "Jasmin.kvp@gmail.com",
         "role": "Exams",
-        "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/YasamanKavianPor.jpg",
+        "photo": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/images/TAs/YasamanKavianPor.jpg",
         "areas": [
           "exams"
         ],
