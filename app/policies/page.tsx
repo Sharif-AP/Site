@@ -408,7 +408,7 @@ export default function PoliciesPage() {
                                         <li>
                                             Instructor —{" "}
                                             <a className="underline hover:text-primary"
-                                               href="mailto:najimi56@gmail.com">
+                                               href="mailto:najimi@sharif-ap.ir">
                                                 najimi56@gmail.com
                                             </a>
                                         </li>
