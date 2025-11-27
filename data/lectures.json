@@ -35,18 +35,18 @@
   },
   "lectures": [
     {
-      "id": "ap-intro",
+      "id": "java-introduction",
       "week": 1,
       "date": "2025-09-20",
-      "title": "Course Overview & Policies",
+      "title": "java introduction",
       "tags": [
         "intro",
         "course"
       ],
       "assets": {
-        "html": "/slides/00-course-intro.html",
-        "pdf": "slides/ap-intro.pdf",
-        "pptx": "slides/ap-intro.pptx",
+        "html": "",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/slides/01-java-introduction.pdf",
+        "pptx": "",
         "external": null
       },
       "description": "Syllabus, grading, project phases, logistics."
@@ -62,7 +62,7 @@
       ],
       "assets": {
         "html": "slides/java-basics-1.html",
-        "pdf": "slides/java-basics-1.pdf",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/slides/02-java-basics.pdf",
         "pptx": "slides/java-basics-1.pptx",
         "external": null
       },
