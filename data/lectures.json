@@ -39,7 +39,10 @@
       "week": 1,
       "date": "2025-09-20",
       "title": "Course Overview & Policies",
-      "tags": ["intro","course"],
+      "tags": [
+        "intro",
+        "course"
+      ],
       "assets": {
         "html": "/slides/00-course-intro.html",
         "pdf": "slides/ap-intro.pdf",
@@ -53,7 +56,10 @@
       "week": 2,
       "date": "2025-09-27",
       "title": "Java Basics I",
-      "tags": ["java","basics"],
+      "tags": [
+        "java",
+        "basics"
+      ],
       "assets": {
         "html": "slides/java-basics-1.html",
         "pdf": "slides/java-basics-1.pdf",
@@ -67,8 +73,16 @@
       "week": 1,
       "date": "2025-10-11",
       "title": "Java Introduction",
-      "tags": ["java","intro"],
-      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "tags": [
+        "java",
+        "intro"
+      ],
+      "assets": {
+        "html": null,
+        "pdf": null,
+        "pptx": null,
+        "external": null
+      },
       "description": "History & programming, What is Java? (JVM, versions, usage), Why Java? (uses, frameworks), Hello World!"
     },
     {
@@ -76,8 +90,16 @@
       "week": 1,
       "date": "2025-10-13",
       "title": "Java Basics",
-      "tags": ["java","basics"],
-      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "tags": [
+        "java",
+        "basics"
+      ],
+      "assets": {
+        "html": null,
+        "pdf": null,
+        "pptx": null,
+        "external": null
+      },
       "description": "Primitive data types (variables), methods, control, strings, arrays."
     },
     {
@@ -85,8 +107,16 @@
       "week": 2,
       "date": "2025-10-18",
       "title": "OOP Introduction",
-      "tags": ["oop","intro"],
-      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "tags": [
+        "oop",
+        "intro"
+      ],
+      "assets": {
+        "html": null,
+        "pdf": null,
+        "pptx": null,
+        "external": null
+      },
       "description": "History (Machine→Assembly→Structured→Procedural→OOP), object, properties/attributes, procedures/methods, class."
     },
     {
@@ -94,8 +124,16 @@
       "week": 2,
       "date": "2025-10-20",
       "title": "OOP Introduction (Design & Thinking)",
-      "tags": ["oop","design"],
-      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "tags": [
+        "oop",
+        "design"
+      ],
+      "assets": {
+        "html": null,
+        "pdf": null,
+        "pptx": null,
+        "external": null
+      },
       "description": "Review, OOP design & thinking, encapsulation, interface, class, package, access modifiers."
     },
     {
@@ -103,8 +141,16 @@
       "week": 3,
       "date": "2025-10-25",
       "title": "OOP in Java (Memory & Lifecycle)",
-      "tags": ["oop","java"],
-      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "tags": [
+        "oop",
+        "java"
+      ],
+      "assets": {
+        "html": null,
+        "pdf": null,
+        "pptx": null,
+        "external": null
+      },
       "description": "Creating classes in Java; memory management (objects in memory); initialization/loading; destruction/GC."
     },
     {
@@ -112,8 +158,17 @@
       "week": 3,
       "date": "2025-10-27",
       "title": "OOP in Java (Params, Constructors, UML Intro)",
-      "tags": ["oop","java","uml"],
-      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "tags": [
+        "oop",
+        "java",
+        "uml"
+      ],
+      "assets": {
+        "html": null,
+        "pdf": null,
+        "pptx": null,
+        "external": null
+      },
       "description": "Parameter passing (by value/reference), constructor, this, static, package, intro to UML."
     },
     {
@@ -121,8 +176,16 @@
       "week": 4,
       "date": "2025-11-01",
       "title": "Inheritance",
-      "tags": ["oop","inheritance"],
-      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "tags": [
+        "oop",
+        "inheritance"
+      ],
+      "assets": {
+        "html": null,
+        "pdf": null,
+        "pptx": null,
+        "external": null
+      },
       "description": "Concept; protected, abstract, super; multiple inheritance in other languages."
     },
     {
@@ -130,8 +193,16 @@
       "week": 4,
       "date": "2025-11-03",
       "title": "Polymorphism",
-      "tags": ["oop","polymorphism"],
-      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "tags": [
+        "oop",
+        "polymorphism"
+      ],
+      "assets": {
+        "html": null,
+        "pdf": null,
+        "pptx": null,
+        "external": null
+      },
       "description": "Concept, implementing via inheritance, final properties."
     },
     {
@@ -139,8 +210,16 @@
       "week": 5,
       "date": "2025-11-08",
       "title": "Interfaces",
-      "tags": ["oop","interface"],
-      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "tags": [
+        "oop",
+        "interface"
+      ],
+      "assets": {
+        "html": null,
+        "pdf": null,
+        "pptx": null,
+        "external": null
+      },
       "description": "Concept; multiple interfaces."
     },
     {
@@ -148,8 +227,16 @@
       "week": 5,
       "date": "2025-11-10",
       "title": "Software Testing",
-      "tags": ["testing","junit"],
-      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "tags": [
+        "testing",
+        "junit"
+      ],
+      "assets": {
+        "html": null,
+        "pdf": null,
+        "pptx": null,
+        "external": null
+      },
       "description": "QA, unit tests, JUnit, throwing exceptions, mocking."
     },
     {
@@ -157,7 +244,10 @@
       "week": 6,
       "date": "2025-11-15",
       "title": "Design Patterns",
-      "tags": ["design-patterns","gof"],
+      "tags": [
+        "design-patterns",
+        "gof"
+      ],
       "assets": {
         "html": "https://github.com/Sharif-AP/Site/blob/master/static/10-design-patterns.html",
         "pdf": "https://github.com/Sharif-AP/Site/blob/master/static/10-design-patterns.pdf",
@@ -171,7 +261,10 @@
       "week": 6,
       "date": "2025-11-17",
       "title": "Refactoring",
-      "tags": ["refactoring","clean-code"],
+      "tags": [
+        "refactoring",
+        "clean-code"
+      ],
       "assets": {
         "html": "https://github.com/Sharif-AP/Site/blob/master/static/11-refactoring.html",
         "pdf": "https://github.com/Sharif-AP/Site/blob/master/static/11-refactoring.pdf",
@@ -185,8 +278,17 @@
       "week": 7,
       "date": "2025-11-22",
       "title": "Error Handling & Exception Management",
-      "tags": ["exceptions","error-handling","java"],
-      "assets": { "html": null, "pdf": null, "pptx": null, "external": null },
+      "tags": [
+        "exceptions",
+        "error-handling",
+        "java"
+      ],
+      "assets": {
+        "html": null,
+        "pdf": null,
+        "pptx": null,
+        "external": null
+      },
       "description": "Legacy error handling; Java exception model; pros/cons; finally; runtime exceptions."
     }
   ],
@@ -196,8 +298,13 @@
       "week": 2,
       "date": "2025-09-28",
       "title": "Homework 1",
-      "tags": ["homework"],
-      "assets": { "pdf": "slides/hw1.pdf", "external": null },
+      "tags": [
+        "homework"
+      ],
+      "assets": {
+        "pdf": "slides/hw1.pdf",
+        "external": null
+      },
       "description": "Basic Java tasks.",
       "deadline": "2025-10-05"
     },
@@ -206,8 +313,14 @@
       "week": 1,
       "date": "2025-10-13",
       "title": "Homework 0 — Java Intro & Basics",
-      "tags": ["homework","java"],
-      "assets": { "pdf": null, "external": null },
+      "tags": [
+        "homework",
+        "java"
+      ],
+      "assets": {
+        "pdf": null,
+        "external": null
+      },
       "description": "Covers Java Introduction and Java Basics.",
       "deadline": "2025-10-24"
     },
@@ -216,8 +329,14 @@
       "week": 3,
       "date": "2025-10-27",
       "title": "Homework 1 — OOP Fundamentals",
-      "tags": ["homework","oop"],
-      "assets": { "pdf": null, "external": null },
+      "tags": [
+        "homework",
+        "oop"
+      ],
+      "assets": {
+        "pdf": null,
+        "external": null
+      },
       "description": "OOP Introduction & OOP in Java.",
       "deadline": "2025-11-07"
     },
@@ -226,8 +345,15 @@
       "week": 6,
       "date": "2025-11-17",
       "title": "Homework 2 — Inheritance to Refactoring",
-      "tags": ["homework","oop","refactoring"],
-      "assets": { "pdf": null, "external": null },
+      "tags": [
+        "homework",
+        "oop",
+        "refactoring"
+      ],
+      "assets": {
+        "pdf": null,
+        "external": null
+      },
       "description": "Inheritance, Polymorphism, Interface, Testing, Design Patterns, Refactoring.",
       "deadline": null
     }
@@ -238,7 +364,10 @@
       "week": 1,
       "date": "2025-10-14",
       "title": "Git Fundamentals Workshop",
-      "tags": ["git","workshop"],
+      "tags": [
+        "git",
+        "workshop"
+      ],
       "assets": {
         "html": "workshops/git-fundamentals.html",
         "pdf": "workshops/git-fundamentals.pdf",
@@ -252,7 +381,10 @@
       "week": 1,
       "date": "2025-10-14",
       "title": "Linux Fundamentals Workshop",
-      "tags": ["linux","workshop"],
+      "tags": [
+        "linux",
+        "workshop"
+      ],
       "assets": {
         "html": "workshops/linux-fundamentals.html",
         "pdf": "workshops/linux-fundamentals.pdf",
@@ -273,21 +405,30 @@
           "title": "Phase 0 — Teaming & Topic Preference",
           "date": "2025-11-01",
           "deadline": "2025-11-03",
-          "assets": { "pdf": null, "external": null }
+          "assets": {
+            "pdf": null,
+            "external": null
+          }
         },
         {
           "id": "phase-1",
           "title": "Phase 1 — Requirements",
           "date": "2025-11-03",
           "deadline": "2025-11-16",
-          "assets": { "pdf": null, "external": "https://example.com/project-guidelines-phase-1" }
+          "assets": {
+            "pdf": null,
+            "external": "https://example.com/project-guidelines-phase-1"
+          }
         },
         {
           "id": "phase-2",
           "title": "Phase 2 — Design",
           "date": "2025-11-01",
           "deadline": "2025-11-15",
-          "assets": { "pdf": null, "external": "https://example.com/project-guidelines-phase-2" }
+          "assets": {
+            "pdf": null,
+            "external": "https://example.com/project-guidelines-phase-2"
+          }
         }
       ]
     }
@@ -475,26 +616,56 @@
         "role": "Technical & Lectures",
         "homepage": "https://masihii.ir",
         "photo": "https://captcha.sharif.ir/static/img/team/HosseinMasihi.jpg",
-        "areas": ["exercises","workshops","projects"],
-        "links": [{ "label": "GitHub", "url": "https://github.com/hosseinMsh" }]
+        "areas": [
+          "exercises",
+          "workshops",
+          "projects"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/hosseinMsh"
+          }
+        ]
       },
       {
         "name": "Sohaib Sadeqhy",
         "email": "sohaibsadeghy@gmail.com",
         "role": "Head TA",
-        "areas": ["exercises","workshops","projects"],
+        "areas": [
+          "exercises",
+          "workshops",
+          "projects"
+        ],
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/SoheibSadeghy.jpg",
-        "links": [{ "label": "GitHub", "url": "https://github.com/sohaib-sadeqi" }]
+        "links": [
+          {
+            "label": "LinkedIn",
+            "url": ""
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/sohaib-sadeqi"
+          }
+        ]
       },
       {
         "name": "Arash Nazari Manesh",
         "email": "arashnm797@gmail.com",
         "role": "Head of Project",
-        "areas": ["projects"],
+        "areas": [
+          "projects"
+        ],
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/ArashNazariManesh.jpg",
         "links": [
-          { "label": "LinkedIn", "url": "https://www.linkedin.com/in/mr-arashnm" },
-          { "label": "GitHub", "url": "https://github.com/mr-arashnm" }
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/mr-arashnm"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/mr-arashnm"
+          }
         ]
       },
       {
@@ -502,10 +673,18 @@
         "email": "aeenkarimian@gmail.com",
         "role": "Head of Project",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/AeenKarimian.jpg",
-        "areas": ["projects"],
+        "areas": [
+          "projects"
+        ],
         "links": [
-          { "label": "LinkedIn", "url": "https://www.linkedin.com/in/aeen-karimian-046a13217/" },
-          { "label": "GitHub", "url": "https://github.com/A-K-6" }
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/aeen-karimian-046a13217/"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/A-K-6"
+          }
         ]
       },
       {
@@ -513,15 +692,24 @@
         "email": "srmpoor47@gmail.com",
         "role": "Project Manager",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/SeyedRezaMoalemPor.jpg",
-        "areas": ["projects"],
-        "links": [{ "label": "GitHub", "url": "https://github.com/srmp47" }]
+        "areas": [
+          "projects"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/srmp47"
+          }
+        ]
       },
       {
         "name": "Hossein Karimi",
         "email": "hosein.hka@gmail.com",
         "role": "Project Manager",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/default.jpg",
-        "areas": ["projects"],
+        "areas": [
+          "projects"
+        ],
         "links": []
       },
       {
@@ -529,7 +717,9 @@
         "email": "M.tm2013@yahoo.com",
         "role": "Project Manager",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/default.jpg",
-        "areas": ["projects"],
+        "areas": [
+          "projects"
+        ],
         "links": []
       },
       {
@@ -537,15 +727,24 @@
         "email": "suranimohammad@gmail.com",
         "role": "Project Manager",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/MohamadHoseinSurani.jpg",
-        "areas": ["projects"],
-        "links": [{ "label": "GitHub", "url": "https://github.com/SurenNTKY" }]
+        "areas": [
+          "projects"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/SurenNTKY"
+          }
+        ]
       },
       {
         "name": "Ramtin Barzkar",
         "email": "ramtin.barzkar.3@gmail.com",
         "role": "Project Manager",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/default.jpg",
-        "areas": ["projects"],
+        "areas": [
+          "projects"
+        ],
         "links": []
       },
       {
@@ -553,10 +752,19 @@
         "email": "hazratimohammadmatin@gmail.com",
         "role": "Head of Exercises & Workshops",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/MohamadMatinHazrati.jpg",
-        "areas": ["exercises","workshops"],
+        "areas": [
+          "exercises",
+          "workshops"
+        ],
         "links": [
-          { "label": "LinkedIn", "url": "https://www.linkedin.com/in/mohammadmatin-h-7b4209216" },
-          { "label": "GitHub", "url": "https://github.com/John-6670" }
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/mohammadmatin-h-7b4209216"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/John-6670"
+          }
         ]
       },
       {
@@ -564,18 +772,35 @@
         "email": "danialdarroudy1383@gmail.com",
         "role": "Exercises & Workshops",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/DanialDorodi.jpg",
-        "areas": ["exercises","workshops"],
-        "links": [{ "label": "GitHub", "url": "https://github.com/DanialDarroudy" }]
+        "areas": [
+          "exercises",
+          "workshops"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/DanialDarroudy"
+          }
+        ]
       },
       {
         "name": "Zahra Masoumi",
         "email": "zahraamasoumi@gmail.com",
         "role": "Exercises & Workshops",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/ZahraMasomi.jpg",
-        "areas": ["exercises","workshops"],
+        "areas": [
+          "exercises",
+          "workshops"
+        ],
         "links": [
-          { "label": "LinkedIn", "url": "https://www.linkedin.com/in/zahra-masoumi-187448232" },
-          { "label": "GitHub", "url": "https://github.com/asAlwaysZahra" }
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/zahra-masoumi-187448232"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/asAlwaysZahra"
+          }
         ]
       },
       {
@@ -583,10 +808,18 @@
         "email": "paymard.pro@gmail.com",
         "role": "Exercises",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/HoseinPaymard.jpg",
-        "areas": ["exercises"],
+        "areas": [
+          "exercises"
+        ],
         "links": [
-          { "label": "LinkedIn", "url": "https://www.linkedin.com/in/hossein-paymard-2427b9389" },
-          { "label": "GitHub", "url": "https://github.com/paymard-pro" }
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/hossein-paymard-2427b9389"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/paymard-pro"
+          }
         ]
       },
       {
@@ -594,7 +827,9 @@
         "email": "h.r.afshari84@gmail.com",
         "role": "Exercises",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/default.jpg",
-        "areas": ["exercises"],
+        "areas": [
+          "exercises"
+        ],
         "links": []
       },
       {
@@ -602,7 +837,9 @@
         "email": "f.alinejad1251@gmail.com",
         "role": "Exercises",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/default.jpg",
-        "areas": ["exercises"],
+        "areas": [
+          "exercises"
+        ],
         "links": []
       },
       {
@@ -610,9 +847,14 @@
         "email": "el1300.gh@gmail.com",
         "role": "Exercises",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/ElhamGholami.jpg",
-        "areas": ["exercises"],
+        "areas": [
+          "exercises"
+        ],
         "links": [
-          { "label": "LinkedIn", "url": "https://www.linkedin.com/in/elham-gholami-9185ab223/" }
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/elham-gholami-9185ab223/"
+          }
         ]
       },
       {
@@ -620,10 +862,18 @@
         "email": "roham8406@gmail.com",
         "role": "Exercises",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/RohamGhasemi.jpeg",
-        "areas": ["exercises"],
+        "areas": [
+          "exercises"
+        ],
         "links": [
-          { "label": "LinkedIn", "url": "https://www.linkedin.com/in/roham-ghasemi/" },
-          { "label": "GitHub", "url": "https://github.com/Roham8406" }
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/roham-ghasemi/"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/Roham8406"
+          }
         ]
       },
       {
@@ -631,7 +881,9 @@
         "email": "m.abedini30@yahoo.com",
         "role": "Exams",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/default.jpg",
-        "areas": ["exams"],
+        "areas": [
+          "exams"
+        ],
         "links": []
       },
       {
@@ -639,9 +891,14 @@
         "email": "Jasmin.kvp@gmail.com",
         "role": "Exams",
         "photo": "https://github.com/Sharif-AP/Site/blob/master/static/images/TAs/YasamanKavianPor.jpg",
-        "areas": ["exams"],
+        "areas": [
+          "exams"
+        ],
         "links": [
-          { "label": "GitHub", "url": "https://github.com/jknewworld" }
+          {
+            "label": "GitHub",
+            "url": "https://github.com/jknewworld"
+          }
         ]
       }
     ]
