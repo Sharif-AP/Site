@@ -435,166 +435,114 @@
   ],
   "timeline": [
     {
-      "date": "2025-09-20",
-      "label": "Lecture 1: Overview",
-      "link": "/slides/00-course-intro.html",
-      "category": "lecture"
-    },
-    {
-      "date": "2025-09-28",
-      "label": "HW1 Released",
-      "link": "/hw/hw1.pdf",
-      "category": "exercise"
-    },
-    {
-      "date": "2025-10-04",
-      "label": "Workshop: Git",
-      "link": "/workshops/git-fundamentals.html",
-      "category": "workshop"
-    },
-    {
       "date": "2025-10-11",
-      "label": "Lecture 1: Java Introduction",
-      "link": null,
+      "label": "Lecture 1: Introduction & Course Overview",
       "category": "lecture"
     },
     {
       "date": "2025-10-13",
       "label": "Lecture 2: Java Basics",
-      "link": null,
       "category": "lecture"
     },
     {
       "date": "2025-10-13",
       "label": "HW0 Released",
-      "link": null,
       "category": "exercise"
     },
     {
       "date": "2025-10-18",
-      "label": "Lecture 3: OOP Introduction",
-      "link": null,
+      "label": "Lecture 3: Object-Oriented Programming Basics",
       "category": "lecture"
     },
     {
       "date": "2025-10-20",
-      "label": "Lecture 4: OOP Design & Thinking",
-      "link": null,
+      "label": "Lecture 4: OOP Design Concepts",
       "category": "lecture"
     },
     {
-      "date": "2025-10-24",
+      "date": "2025-11-01",
       "label": "HW0 Deadline",
-      "link": null,
       "category": "exercise"
     },
     {
-      "date": "2025-10-25",
-      "label": "Lecture 5: OOP in Java (Memory)",
-      "link": null,
+      "date": "2025-11-02",
+      "label": "Lecture 5: OOP in Java",
       "category": "lecture"
     },
     {
-      "date": "2025-10-27",
-      "label": "Lecture 6: OOP in Java (UML Intro)",
-      "link": null,
+      "date": "2025-11-04",
+      "label": "Lecture 6: UML & Object Modeling",
       "category": "lecture"
     },
     {
-      "date": "2025-10-27",
-      "label": "HW1 (OOP) Released",
-      "link": null,
+      "date": "2025-11-04",
+      "label": "HW1 Released",
       "category": "exercise"
     },
     {
-      "date": "2025-11-01",
+      "date": "2025-11-05",
+      "label": "Exercise Review Session",
+      "category": "workshop"
+    },
+    {
+      "date": "2025-11-10",
       "label": "Lecture 7: Inheritance",
-      "link": null,
-      "category": "lecture"
-    },
-    {
-      "date": "2025-11-01",
-      "label": "Project Phase 0 Released",
-      "link": null,
-      "category": "project"
-    },
-    {
-      "date": "2025-11-03",
-      "label": "Lecture 8: Polymorphism",
-      "link": null,
-      "category": "lecture"
-    },
-    {
-      "date": "2025-11-03",
-      "label": "Project Phase 0 Deadline",
-      "link": null,
-      "category": "project"
-    },
-    {
-      "date": "2025-11-03",
-      "label": "Project Phase 1 Start",
-      "link": "https://example.com/project-guidelines-phase-1",
-      "category": "project"
-    },
-    {
-      "date": "2025-11-07",
-      "label": "HW1 (OOP) Deadline",
-      "link": null,
-      "category": "exercise"
-    },
-    {
-      "date": "2025-11-08",
-      "label": "Lecture 9: Interfaces",
-      "link": null,
       "category": "lecture"
     },
     {
       "date": "2025-11-10",
-      "label": "Lecture 10: Software Testing",
-      "link": null,
-      "category": "lecture"
-    },
-    {
-      "date": "2025-11-14",
-      "label": "HW1 (OOP) Final Deadline",
-      "link": null,
-      "category": "exercise"
-    },
-    {
-      "date": "2025-11-15",
-      "label": "Lecture 11: Design Patterns",
-      "link": null,
-      "category": "lecture"
-    },
-    {
-      "date": "2025-11-16",
-      "label": "Project Phase 1 Deadline",
-      "link": null,
+      "label": "Project Phase 0 Released",
       "category": "project"
     },
     {
+      "date": "2025-11-12",
+      "label": "HW1 Deadline",
+      "category": "exercise"
+    },
+    {
       "date": "2025-11-17",
-      "label": "Lecture 12: Refactoring",
-      "link": null,
+      "label": "Lecture 8: Polymorphism",
       "category": "lecture"
     },
     {
       "date": "2025-11-17",
-      "label": "HW2 Released",
-      "link": null,
-      "category": "exercise"
-    },
-    {
-      "date": "2025-11-18",
-      "label": "Project Phase 1 Review",
-      "link": null,
+      "label": "Project Phase 1 Released",
       "category": "project"
     },
     {
       "date": "2025-11-22",
-      "label": "Lecture 13: Error Handling & Exceptions",
-      "link": null,
+      "label": "Lecture 9: Interfaces",
       "category": "lecture"
+    },
+    {
+      "date": "2025-11-24",
+      "label": "Lecture 10: Software Testing",
+      "category": "lecture"
+    },
+    {
+      "date": "2025-12-01",
+      "label": "Lecture 11: Design Patterns",
+      "category": "lecture"
+    },
+    {
+      "date": "2025-12-08",
+      "label": "Lecture 12: Refactoring",
+      "category": "lecture"
+    },
+    {
+      "date": "2025-12-15",
+      "label": "Lecture 13: Error Handling & Exceptions",
+      "category": "lecture"
+    },
+    {
+      "date": "2025-12-31",
+      "label": "HW Final Deadline (All Assignments)",
+      "category": "exercise"
+    },
+    {
+      "date": "2026-01-01",
+      "label": "Project Final Deadline",
+      "category": "project"
     }
   ],
   "policies": {
