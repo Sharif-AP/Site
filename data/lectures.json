@@ -14,14 +14,14 @@
     ],
     "contacts": {
       "website": "https://docs.ce.sharif.edu/courses/40244",
-      "email": "ap@sharif.edu",
-      "office": "CE Department",
-      "office_hours": "Sun & Tue 14:00–16:00"
+      "email": "admin@sharif-ap.ir",
+      "class": "CE 101 Department, Sharif SUT",
+      "office_hours": "Sat & Mon 15:00–16:30"
     },
     "links": [
       {
         "label": "GitHub Repo",
-        "href": "https://github.com/AliJimi/sharif-ap-slides"
+        "href": "https://github.com/Sharif-AP"
       },
       {
         "label": "Course Docs",

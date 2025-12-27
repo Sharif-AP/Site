@@ -40,14 +40,14 @@ export function Footer() {
             <h4 className="font-semibold mb-3">Contact</h4>
             <div className="flex gap-3">
               <a
-                href="mailto:ap@sharif.edu"
+                href="mailto:admin@sharif-ap.ir"
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="Email"
               >
                 <Mail className="h-5 w-5" />
               </a>
               <a
-                href="https://github.com/AliJimi/sharif-ap-slides"
+                href="https://github.com/Sharif-AP"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"

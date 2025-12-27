@@ -22,7 +22,7 @@ export default function HomePage() {
               </Badge>
               <h1 className="text-4xl md:text-6xl font-bold mb-6 text-balance">Advanced Programming</h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-pretty leading-relaxed">
-                Learn. Build. Ship.
+                  Instructor · Ali Najimi
               </p>
               <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto text-pretty leading-relaxed">
                 A practical course covering core programming concepts with Java, software design, and modern development
@@ -147,24 +147,24 @@ export default function HomePage() {
                     <CardContent className="space-y-3">
                       <div>
                         <div className="font-semibold text-sm text-muted-foreground">Email</div>
-                        <a href="mailto:ap@sharif.ir" className="text-primary hover:underline">
-                          ap@sharif.edu
+                        <a href="mailto:admin@sharif-ap.ir" className="text-primary hover:underline">
+                            admin@sharif-ap.ir
                         </a>
                       </div>
                       <div>
-                        <div className="font-semibold text-sm text-muted-foreground">Office Hours</div>
-                        <div>Sun & Tue 14:00–16:00</div>
+                        <div className="font-semibold text-sm text-muted-foreground">Class Hours</div>
+                        <div>Sat & Mon 15:00–16:30</div>
                       </div>
                       <div>
                         <div className="font-semibold text-sm text-muted-foreground">Location</div>
-                        <div>CE Department</div>
+                        <div>CE 101 Department of SUT</div>
                       </div>
                     </CardContent>
                   </Card>
                 </div>
 
                 <div className="mt-8 flex flex-wrap gap-3 justify-center">
-                  <a href="https://github.com/AliJimi/sharif-ap-slides" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Sharif-AP" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline">
                       <Github className="h-4 w-4 mr-2" />
                       GitHub Repository
