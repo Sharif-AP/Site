@@ -35,326 +35,327 @@
   },
   "lectures": [
     {
-      "id": "java-introduction",
+      "id": "session-01-java-intro",
       "week": 1,
-      "date": "2025-09-20",
-      "title": "java introduction",
-      "tags": [
-        "intro",
-        "course"
-      ],
-      "assets": {
-        "html": "",
-        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/slides/01-java-introduction.pdf",
-        "pptx": "",
-        "external": null
-      },
-      "description": "Syllabus, grading, project phases, logistics."
-    },
-    {
-      "id": "java-basics-1",
-      "week": 2,
-      "date": "2025-09-27",
-      "title": "Java Basics I",
-      "tags": [
-        "java",
-        "basics"
-      ],
-      "assets": {
-        "html": "slides/java-basics-1.html",
-        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Site/master/static/slides/02-java-basics.pdf",
-        "pptx": "slides/java-basics-1.pptx",
-        "external": null
-      },
-      "description": "JVM, types, control flow, tooling."
-    },
-    {
-      "id": "lec-01-java-intro",
-      "week": 1,
+      "day": "Saturday",
       "date": "2025-10-11",
       "title": "Java Introduction",
-      "tags": [
-        "java",
-        "intro"
-      ],
+      "tags": ["java", "intro"],
       "assets": {
-        "html": null,
-        "pdf": null,
-        "pptx": null,
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/01-java-introduction/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/01-java-introduction/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/01-java-introduction/slide.pptx",
         "external": null
       },
-      "description": "History & programming, What is Java? (JVM, versions, usage), Why Java? (uses, frameworks), Hello World!"
+      "description": "History & Programming, What is Java, JVM, versions, usage, Hello World."
     },
     {
-      "id": "lec-02-java-basics",
+      "id": "session-02-java-basics",
       "week": 1,
+      "day": "Monday",
       "date": "2025-10-13",
       "title": "Java Basics",
-      "tags": [
-        "java",
-        "basics"
-      ],
+      "tags": ["java", "basics"],
       "assets": {
-        "html": null,
-        "pdf": null,
-        "pptx": null,
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/02-java-basics/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/02-java-basics/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/02-java-basics/slide.pptx",
         "external": null
       },
-      "description": "Primitive data types (variables), methods, control, strings, arrays."
+      "description": "Primitive data types, variables, methods, control flow, strings, arrays."
     },
     {
-      "id": "lec-03-oop-intro",
+      "id": "session-03-oop-intro",
       "week": 2,
+      "day": "Saturday",
       "date": "2025-10-18",
       "title": "OOP Introduction",
-      "tags": [
-        "oop",
-        "intro"
-      ],
+      "tags": ["oop", "intro"],
       "assets": {
-        "html": null,
-        "pdf": null,
-        "pptx": null,
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/03-oop-intro/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/03-oop-intro/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/03-oop-intro/slide.pptx",
         "external": null
       },
-      "description": "History (Machine→Assembly→Structured→Procedural→OOP), object, properties/attributes, procedures/methods, class."
+      "description": "History of OOP, objects, attributes, methods, classes."
     },
     {
-      "id": "lec-04-oop-intro-2",
+      "id": "session-04-oop-design",
       "week": 2,
+      "day": "Monday",
       "date": "2025-10-20",
-      "title": "OOP Introduction (Design & Thinking)",
-      "tags": [
-        "oop",
-        "design"
-      ],
+      "title": "OOP Design & Thinking",
+      "tags": ["oop", "design"],
       "assets": {
-        "html": null,
-        "pdf": null,
-        "pptx": null,
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/04-oop-in-java/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/04-oop-in-java/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/04-oop-in-java/slide.pptx",
         "external": null
       },
-      "description": "Review, OOP design & thinking, encapsulation, interface, class, package, access modifiers."
+      "description": "Encapsulation, interfaces, packages, access modifiers."
     },
     {
-      "id": "lec-05-oop-in-java-1",
+      "id": "session-05-oop-advanced",
       "week": 3,
+      "day": "Saturday",
       "date": "2025-10-25",
-      "title": "OOP in Java (Memory & Lifecycle)",
-      "tags": [
-        "oop",
-        "java"
-      ],
+      "title": "OOP in Java (Advanced)",
+      "tags": ["oop", "java"],
       "assets": {
-        "html": null,
-        "pdf": null,
-        "pptx": null,
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/05-opp-in-java/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/05-opp-in-java/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/05-opp-in-java/slide.pptx",
         "external": null
       },
-      "description": "Creating classes in Java; memory management (objects in memory); initialization/loading; destruction/GC."
+      "description": "Constructors, parameter passing, static members, packages, UML intro."
     },
     {
-      "id": "lec-06-oop-in-java-2",
-      "week": 3,
-      "date": "2025-10-27",
-      "title": "OOP in Java (Params, Constructors, UML Intro)",
-      "tags": [
-        "oop",
-        "java",
-        "uml"
-      ],
-      "assets": {
-        "html": null,
-        "pdf": null,
-        "pptx": null,
-        "external": null
-      },
-      "description": "Parameter passing (by value/reference), constructor, this, static, package, intro to UML."
-    },
-    {
-      "id": "lec-07-inheritance",
+      "id": "session-06-inheritance",
       "week": 4,
+      "day": "Saturday",
       "date": "2025-11-01",
       "title": "Inheritance",
-      "tags": [
-        "oop",
-        "inheritance"
-      ],
+      "tags": ["oop", "inheritance"],
       "assets": {
-        "html": null,
-        "pdf": null,
-        "pptx": null,
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/06-Inheritance/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/06-Inheritance/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/06-Inheritance/slide.pptx",
         "external": null
       },
-      "description": "Concept; protected, abstract, super; multiple inheritance in other languages."
+      "description": "Inheritance, abstract classes, protected, super, multiple inheritance."
     },
     {
-      "id": "lec-08-polymorphism",
+      "id": "session-07-polymorphism",
       "week": 4,
+      "day": "Monday",
       "date": "2025-11-03",
       "title": "Polymorphism",
-      "tags": [
-        "oop",
-        "polymorphism"
-      ],
+      "tags": ["oop", "polymorphism"],
       "assets": {
-        "html": null,
-        "pdf": null,
-        "pptx": null,
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/07-polymorphism/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/07-polymorphism/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/07-polymorphism/slide.pptx",
         "external": null
       },
-      "description": "Concept, implementing via inheritance, final properties."
+      "description": "Concept of polymorphism, overriding, runtime binding, final methods."
     },
     {
-      "id": "lec-09-interface",
+      "id": "session-08-interface",
       "week": 5,
+      "day": "Saturday",
       "date": "2025-11-08",
       "title": "Interfaces",
-      "tags": [
-        "oop",
-        "interface"
-      ],
+      "tags": ["oop", "interface"],
       "assets": {
-        "html": null,
-        "pdf": null,
-        "pptx": null,
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/08-Interface/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/08-Interface/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/08-Interface/slide.pptx",
         "external": null
       },
-      "description": "Concept; multiple interfaces."
+      "description": "Interfaces, multiple inheritance via interfaces, design usage."
     },
     {
-      "id": "lec-10-testing",
+      "id": "session-09-software-testing",
       "week": 5,
+      "day": "Monday",
       "date": "2025-11-10",
       "title": "Software Testing",
-      "tags": [
-        "testing",
-        "junit"
-      ],
+      "tags": ["testing", "junit"],
       "assets": {
-        "html": null,
-        "pdf": null,
-        "pptx": null,
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/09-software-testing/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/09-software-testing/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/09-software-testing/slide.pptx",
         "external": null
       },
-      "description": "QA, unit tests, JUnit, throwing exceptions, mocking."
+      "description": "QA, unit testing, JUnit, mocking, assertions."
     },
     {
-      "id": "lec-11-design-patterns",
+      "id": "session-10-design-patterns",
       "week": 6,
+      "day": "Saturday",
       "date": "2025-11-15",
       "title": "Design Patterns",
-      "tags": [
-        "design-patterns",
-        "gof"
-      ],
+      "tags": ["design-patterns", "gof"],
       "assets": {
-        "html": "https://github.com/Sharif-AP/Site/blob/master/static/10-design-patterns.html",
-        "pdf": "https://github.com/Sharif-AP/Site/blob/master/static/10-design-patterns.pdf",
-        "pptx": null,
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/10-design-patterns/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/10-design-patterns/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/10-design-patterns/slide.pptx",
         "external": null
       },
-      "description": "Concepts, GoF patterns, other patterns."
+      "description": "GoF patterns, creational, structural, behavioral patterns."
     },
     {
-      "id": "lec-12-refactoring",
+      "id": "session-11-refactoring",
       "week": 6,
+      "day": "Monday",
       "date": "2025-11-17",
       "title": "Refactoring",
-      "tags": [
-        "refactoring",
-        "clean-code"
-      ],
+      "tags": ["refactoring", "clean-code"],
       "assets": {
-        "html": "https://github.com/Sharif-AP/Site/blob/master/static/11-refactoring.html",
-        "pdf": "https://github.com/Sharif-AP/Site/blob/master/static/11-refactoring.pdf",
-        "pptx": null,
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/11-refactoring/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/11-refactoring/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/11-refactoring/slide.pptx",
         "external": null
       },
-      "description": "Refactoring concepts, Clean Code, code smells, refactoring patterns."
+      "description": "Code smells, refactoring techniques, Clean Code principles."
     },
     {
-      "id": "lec-13-error-handling",
+      "id": "session-12-error-handling",
       "week": 7,
+      "day": "Saturday",
       "date": "2025-11-22",
-      "title": "Error Handling & Exception Management",
-      "tags": [
-        "exceptions",
-        "error-handling",
-        "java"
-      ],
+      "title": "Error Handling & Exceptions",
+      "tags": ["exceptions", "error-handling", "java"],
       "assets": {
-        "html": null,
-        "pdf": null,
-        "pptx": null,
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/12-error-handling/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/12-error-handling/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/12-error-handling/slide.pptx",
         "external": null
       },
-      "description": "Legacy error handling; Java exception model; pros/cons; finally; runtime exceptions."
+      "description": "Java exception model, try/catch/finally, checked vs unchecked."
+    },
+    {
+      "id": "session-13-generics",
+      "week": 7,
+      "day": "Monday",
+      "date": "2025-11-24",
+      "title": "Generics",
+      "tags": ["java", "generics"],
+      "assets": {
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/13-generics/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/13-generics/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/13-generics/slide.pptx",
+        "external": null
+      },
+      "description": "Generic types, bounds, wildcards, type erasure."
+    },
+    {
+      "id": "session-14-data-structures",
+      "week": 8,
+      "day": "Saturday",
+      "date": "2025-11-29",
+      "title": "Containers & Data Structures",
+      "tags": ["collections", "data-structures"],
+      "assets": {
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/14-containers-data-structures/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/14-containers-data-structures/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/14-containers-data-structures/slide.pptx",
+        "external": null
+      },
+      "description": "Java Collections Framework, List, Set, Map, performance."
+    },
+    {
+      "id": "session-15-file-stream",
+      "week": 8,
+      "day": "Monday",
+      "date": "2025-12-01",
+      "title": "File & Stream",
+      "tags": ["io", "stream"],
+      "assets": {
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/15-file-stream/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/15-file-stream/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/15-file-stream/slide.pptx",
+        "external": null
+      },
+      "description": "File I/O, streams, serialization, NIO overview."
+    },
+    {
+      "id": "session-16-network",
+      "week": 9,
+      "day": "Saturday",
+      "date": "2025-12-06",
+      "title": "Network Programming",
+      "tags": ["network", "java"],
+      "assets": {
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/16-network/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/16-network/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/16-network/slide.pptx",
+        "external": null
+      },
+      "description": "Sockets, TCP/UDP, client-server model."
+    },
+    {
+      "id": "session-18-concurrency",
+      "week": 10,
+      "day": "Saturday",
+      "date": "2025-12-13",
+      "title": "Concurrency",
+      "tags": ["concurrency", "threads"],
+      "assets": {
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/18-concurrency/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/18-concurrency/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/18-concurrency/slide.pptx",
+        "external": null
+      },
+      "description": "Threads, synchronization, concurrency utilities."
+    },
+    {
+      "id": "session-19-reflection",
+      "week": 11,
+      "day": "Saturday",
+      "date": "2025-12-20",
+      "title": "Reflection",
+      "tags": ["reflection", "java"],
+      "assets": {
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Slides/19-reflection/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/19-reflection/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Slides/19-reflection/slide.pptx",
+        "external": null
+      },
+      "description": "Java Reflection API, dynamic inspection, annotations."
     }
   ],
   "exercises": [
     {
-      "id": "hw1",
-      "week": 2,
-      "date": "2025-09-28",
-      "title": "Homework 1",
-      "tags": [
-        "homework"
-      ],
-      "assets": {
-        "pdf": "slides/hw1.pdf",
-        "external": null
-      },
-      "description": "Basic Java tasks.",
-      "deadline": "2025-10-05"
-    },
-    {
       "id": "hw0",
       "week": 1,
       "date": "2025-10-13",
-      "title": "Homework 0 — Java Intro & Basics",
-      "tags": [
-        "homework",
-        "java"
-      ],
+      "title": "Homework 0 — Java Introduction & Basics",
+      "tags": ["homework", "java"],
       "assets": {
-        "pdf": null,
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Homeworks/HW0.pdf",
         "external": null
       },
-      "description": "Covers Java Introduction and Java Basics.",
+      "description": "Covers Java Introduction and basic Java syntax.",
       "deadline": "2025-10-24"
     },
     {
-      "id": "hw1-oop",
-      "week": 3,
-      "date": "2025-10-27",
-      "title": "Homework 1 — OOP Fundamentals",
-      "tags": [
-        "homework",
-        "oop"
-      ],
+      "id": "hw1",
+      "week": 2,
+      "date": "2025-10-18",
+      "title": "Homework 1 — Java Basics",
+      "tags": ["homework", "java", "basics"],
       "assets": {
-        "pdf": null,
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Homeworks/HW1.pdf",
         "external": null
       },
-      "description": "OOP Introduction & OOP in Java.",
-      "deadline": "2025-11-07"
+      "description": "Primitive types, control flow, methods, arrays.",
+      "deadline": "2025-11-01"
     },
     {
-      "id": "hw2-refactor",
-      "week": 6,
-      "date": "2025-11-17",
-      "title": "Homework 2 — Inheritance to Refactoring",
-      "tags": [
-        "homework",
-        "oop",
-        "refactoring"
-      ],
+      "id": "hw2",
+      "week": 4,
+      "date": "2025-11-01",
+      "title": "Homework 2 — OOP Fundamentals",
+      "tags": ["homework", "oop"],
       "assets": {
-        "pdf": null,
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Homeworks/HW2.pdf",
         "external": null
       },
-      "description": "Inheritance, Polymorphism, Interface, Testing, Design Patterns, Refactoring.",
+      "description": "OOP concepts, classes, objects, inheritance, polymorphism.",
+      "deadline": "2025-11-15"
+    },
+    {
+      "id": "hw3",
+      "week": 6,
+      "date": "2025-11-15",
+      "title": "Homework 3 — Advanced Java & Refactoring",
+      "tags": ["homework", "refactoring", "design-patterns"],
+      "assets": {
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Homeworks/HW3.pdf",
+        "external": null
+      },
+      "description": "Design patterns, refactoring, clean code, testing concepts.",
       "deadline": null
     }
   ],
