@@ -393,44 +393,492 @@
   ],
   "projects": [
     {
-      "id": "proj-01",
-      "title": "AP Project",
-      "description": "A multi-phase course project.",
+      "id": "amazon-clone",
+      "title": "Amazon Clone",
+      "description": "Design and implementation of an e-commerce system similar to Amazon.",
       "phases": [
         {
           "id": "phase-0",
-          "title": "Phase 0 — Teaming & Topic Preference",
+          "title": "Phase 0 — Team Formation & Topic Selection",
           "date": "2025-11-01",
           "deadline": "2025-11-03",
           "assets": {
-            "pdf": null,
-            "external": null
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/Amazon%20Clone.pdf"
           }
         },
         {
           "id": "phase-1",
-          "title": "Phase 1 — Requirements",
+          "title": "Phase 1 — Requirements Analysis",
           "date": "2025-11-03",
           "deadline": "2025-11-16",
           "assets": {
-            "pdf": null,
-            "external": "https://example.com/project-guidelines-phase-1"
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": null
           }
         },
         {
           "id": "phase-2",
-          "title": "Phase 2 — Design",
-          "date": "2025-11-01",
-          "deadline": "2025-11-15",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
           "assets": {
-            "pdf": null,
-            "external": "https://example.com/project-guidelines-phase-2"
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": null
           }
+        }
+      ]
+    },
+
+    {
+      "id": "co-working-space",
+      "title": "Co-Working Space",
+      "description": "System for managing shared workspaces, reservations, and memberships.",
+      "phases": [
+        {
+          "id": "phase-0",
+          "title": "Phase 0 — Team Formation & Topic Selection",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": {
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/Co-Working%20Space.pdf"
+          }
+        },
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements Analysis",
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        }
+      ]
+    },
+
+    {
+      "id": "customer-relationship-manager",
+      "title": "Customer Relationship Manager",
+      "description": "CRM system for managing customers, interactions, and sales pipelines.",
+      "phases": [
+        {
+          "id": "phase-0",
+          "title": "Phase 0 — Team Formation & Topic Selection",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": {
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/Customer%20Relationship%20Manager.pdf"
+          }
+        },
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements Analysis",
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        }
+      ]
+    },
+
+    {
+      "id": "event-management",
+      "title": "Event Management System",
+      "description": "Platform for planning, scheduling, and managing events.",
+      "phases": [
+        {
+          "id": "phase-0",
+          "title": "Phase 0 — Team Formation & Topic Selection",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": {
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/Event%20Management.pdf"
+          }
+        },
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements Analysis",
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        }
+      ]
+    },
+
+    {
+      "id": "garage-management-system",
+      "title": "Garage Management System",
+      "description": "System for managing vehicle services, repairs, and inventory.",
+      "phases": [
+        {
+          "id": "phase-0",
+          "title": "Phase 0 — Team Formation & Topic Selection",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": {
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/Garage%20Management%20System.pdf"
+          }
+        },
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements Analysis",
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        }
+      ]
+    },
+
+    {
+      "id": "hospital-management-system",
+      "title": "Hospital Management System",
+      "description": "System for managing hospital operations, patients, staff, and resources.",
+      "phases": [
+        {
+          "id": "phase-0",
+          "title": "Phase 0 — Team Formation & Topic Selection",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": {
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/Hospital%20Management%20System.pdf"
+          }
+        },
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements Analysis",
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        }
+      ]
+    },
+
+    {
+      "id": "hotel-management-system",
+      "title": "Hotel Management System",
+      "description": "System for managing hotel reservations, rooms, staff, and billing.",
+      "phases": [
+        {
+          "id": "phase-0",
+          "title": "Phase 0 — Team Formation & Topic Selection",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": {
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/Hotel%20Management%20System.pdf"
+          }
+        },
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements Analysis",
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        }
+      ]
+    },
+
+    {
+      "id": "intelligent-chat-system",
+      "title": "Intelligent Chat System",
+      "description": "Chat system with intelligent response handling and automation.",
+      "phases": [
+        {
+          "id": "phase-0",
+          "title": "Phase 0 — Team Formation & Topic Selection",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": {
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/Intelligent%20Chat%20System.pdf"
+          }
+        },
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements Analysis",
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        }
+      ]
+    },
+
+    {
+      "id": "job-hunting-system",
+      "title": "Job Hunting System",
+      "description": "Platform for job searching, applications, and employer management.",
+      "phases": [
+        {
+          "id": "phase-0",
+          "title": "Phase 0 — Team Formation & Topic Selection",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": {
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/Job%20Hunting%20System.pdf"
+          }
+        },
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements Analysis",
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        }
+      ]
+    },
+
+    {
+      "id": "smart-home-automation",
+      "title": "Smart Home Automation System",
+      "description": "Automation system for controlling and monitoring smart home devices.",
+      "phases": [
+        {
+          "id": "phase-0",
+          "title": "Phase 0 — Team Formation & Topic Selection",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": {
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/Smart%20Home%20Automation%20System.pdf"
+          }
+        },
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements Analysis",
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        }
+      ]
+    },
+
+    {
+      "id": "stock-trading-simulator",
+      "title": "Stock Trading Simulator",
+      "description": "Simulation platform for stock trading and portfolio management.",
+      "phases": [
+        {
+          "id": "phase-0",
+          "title": "Phase 0 — Team Formation & Topic Selection",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": {
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/Stock%20Trading%20Simulator.pdf"
+          }
+        },
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements Analysis",
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        }
+      ]
+    },
+
+    {
+      "id": "supermarket-management-system",
+      "title": "Supermarket Management System",
+      "description": "System for managing supermarket inventory, sales, and suppliers.",
+      "phases": [
+        {
+          "id": "phase-0",
+          "title": "Phase 0 — Team Formation & Topic Selection",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": {
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/Supermarket%20Management%20System.pdf"
+          }
+        },
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements Analysis",
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        }
+      ]
+    },
+
+    {
+      "id": "system-health-monitoring",
+      "title": "System Health Monitoring",
+      "description": "Monitoring system for tracking system performance and health metrics.",
+      "phases": [
+        {
+          "id": "phase-0",
+          "title": "Phase 0 — Team Formation & Topic Selection",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": {
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/System%20Health%20Monitoring.pdf"
+          }
+        },
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements Analysis",
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        }
+      ]
+    },
+
+    {
+      "id": "web-scraping-system",
+      "title": "Web Scraping System",
+      "description": "System for collecting and processing data from websites.",
+      "phases": [
+        {
+          "id": "phase-0",
+          "title": "Phase 0 — Team Formation & Topic Selection",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": {
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/Web%20Scraping.pdf"
+          }
+        },
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements Analysis",
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        }
+      ]
+    },
+
+    {
+      "id": "zoo-management-system",
+      "title": "Zoo Management System",
+      "description": "System for managing animals, staff, tickets, and zoo operations.",
+      "phases": [
+        {
+          "id": "phase-0",
+          "title": "Phase 0 — Team Formation & Topic Selection",
+          "date": "2025-11-01",
+          "deadline": "2025-11-03",
+          "assets": {
+            "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf",
+            "external": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Docs/Zoo%20Management%20System.pdf"
+          }
+        },
+        {
+          "id": "phase-1",
+          "title": "Phase 1 — Requirements Analysis",
+          "date": "2025-11-03",
+          "deadline": "2025-11-16",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2 — System Design",
+          "date": "2025-11-17",
+          "deadline": "2025-11-30",
+          "assets": { "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Projects/Guide-to-project-docs.pdf", "external": null }
         }
       ]
     }
   ],
-  "timeline": [
+"timeline": [
     {
       "date": "2025-10-11",
       "label": "Lecture 1: Introduction & Course Overview",
