@@ -36,6 +36,7 @@ export interface Workshop {
   assets: {
     html?: string | null
     pdf?: string | null
+    pptx?: string | null
     external?: string | null
   }
   description: string

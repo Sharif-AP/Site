@@ -156,6 +156,14 @@ export default function ClassesPage() {
                             </Button>
                           </a>
                         )}
+                          {workshop.assets.pptx && (
+                          <a href={workshop.assets.pptx} download>
+                              <Button variant="outline" size="sm">
+                                  <Download className="h-4 w-4 mr-2" />
+                                  PPTX
+                              </Button>
+                          </a>
+                      )}
                         {workshop.assets.external && (
                           <a href={workshop.assets.external} target="_blank" rel="noopener noreferrer">
                             <Button variant="outline" size="sm">

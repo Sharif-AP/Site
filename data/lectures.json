@@ -361,37 +361,33 @@
   ],
   "workshops": [
     {
-      "id": "git-basics-ws",
-      "week": 1,
-      "date": "2025-10-14",
-      "title": "Git Fundamentals Workshop",
-      "tags": [
-        "git",
-        "workshop"
-      ],
-      "assets": {
-        "html": "workshops/git-fundamentals.html",
-        "pdf": "workshops/git-fundamentals.pdf",
-        "external": null
-      },
-      "description": "Introduction to Git concepts: repositories, commits, branches, merges, and collaborative workflows on GitHub.",
-      "location": "V-Class"
-    },
-    {
       "id": "linux-basics-ws",
       "week": 1,
       "date": "2025-10-14",
       "title": "Linux Fundamentals Workshop",
-      "tags": [
-        "linux",
-        "workshop"
-      ],
+      "tags": ["linux", "workshop"],
       "assets": {
-        "html": "workshops/linux-fundamentals.html",
-        "pdf": "workshops/linux-fundamentals.pdf",
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Workshop/01-linux/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Workshop/01-linux/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Workshop/01-linux/slide.pptx",
         "external": null
       },
-      "description": "Hands-on introduction to Linux: Terminal basics, permissions, users & processes, package management, and shell scripting.",
+      "description": "Hands-on introduction to Linux: terminal basics, permissions, users & processes, package management, and shell scripting.",
+      "location": "V-Class"
+    },
+    {
+      "id": "git-basics-ws",
+      "week": 1,
+      "date": "2025-10-14",
+      "title": "Git Fundamentals Workshop",
+      "tags": ["git", "workshop"],
+      "assets": {
+        "html": "https://raw.githack.com/Sharif-AP/Course-Materials/main/1404/Workshop/02-git/slide.html",
+        "pdf": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Workshop/02-git/slide.pdf",
+        "pptx": "https://raw.githubusercontent.com/Sharif-AP/Course-Materials/main/1404/Workshop/02-git/slide.pptx",
+        "external": null
+      },
+      "description": "Introduction to Git concepts: repositories, commits, branches, merges, and collaborative workflows on GitHub.",
       "location": "V-Class"
     }
   ],
